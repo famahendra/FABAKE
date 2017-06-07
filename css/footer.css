@@ -1,0 +1,163 @@
+.footer-wrap,.copyright{
+  padding:0;
+ background:#dcd3d3;;
+}
+
+.fot-bd{
+  border-bottom: 5px solid #c10505;
+}
+.ku-txt p{
+    padding: 0 0 0 40px;
+    background: url(../img/sprite.png) no-repeat -3px -191px;
+    line-height: 33px;
+}
+.ku-txt ul li, .nhelp ul li, .minfo ul li {
+    line-height: 22px;
+}
+.ku-txt ul li a, .nhelp ul li a, .minfo ul li a {
+    color: #464646;
+    font-size: 13px;
+}
+.ku-txt ul li:hover a,.nhelp ul li:hover a,.minfo ul li:hover a{
+	color:#c10505;
+	text-decoration:underline !important;
+}
+.ku-txt ul li:hover a:after, .nhelp ul li:hover a:after, .minfo ul li:hover a:after {
+    content: "";
+    padding-left: 14px;
+	background: url(../img/sprite.png) no-repeat -5px -85px/39px auto;
+}
+.nhelp p{
+    padding: 0 0 0 40px;
+    background: url(../img/sprite.png) no-repeat 7px -387px;
+    line-height: 33px;
+}
+.minfo p{
+    padding: 0 0 0 40px;
+    background: url(../img/sprite.png) no-repeat 2px -350px;
+    line-height: 33px;
+}
+.subs-email .form-text{
+    width: 100%;
+    border: 2px solid #dfd4d4;
+    padding: 6px 9px;
+}
+.subs h2 {
+    color: #c10505;
+    font-size: 20px;
+    font-weight: 300;
+    margin: 15px 0 9px;
+}
+.subs {
+    background: #ebe2e2;
+    position: absolute;
+    right: 0;
+    width: 335px;
+	padding-bottom: 15px;
+}
+.subs-email .form-item {margin:0 !important;}
+.subs-submit input {
+    background: #c10505;
+    border:none;
+    color: #fff;
+    font-size: 14px;
+    padding:7px 10px;
+    text-transform: uppercase;
+}
+.subs div.messages {width:90% !important}
+.copyright{
+  border-top: 1px solid #d3cbcb;
+  border-bottom: 3px solid #c10505;
+}
+.second-footer {
+    margin: 20px 0 0;
+    padding: 0 !important;
+}
+.follow-us {
+    margin-bottom: 5px;
+}
+.ku-txt p, .nhelp p, .minfo p, .third-footer p {
+    color: #464646;
+    font-size: 15px;
+    font-weight: 400;
+    padding-left: 47px;
+}
+
+.follow-us ul li {
+    display: inline-block;
+    padding-left: 0;
+	margin:0 6px;
+	width:20px;
+}
+.follow-us ul li a {width: 41px;
+    height: 38px;
+    display: block;
+	background:url(../img/social_icon.png) no-repeat 0px 0px;
+	}
+.follow-us ul li.fb a {background-position:0px 3px;}  
+.follow-us ul li.twt a {background-position:-35px 3px;}  
+.follow-us ul li.pint a {background-position:-68px 3px;}  
+.follow-us ul li.instagram a {background-position:-102px 3px;}  
+.follow-us ul,.ku-txt,.nhelp,.minfo,.blog,.subs-email, .subs-submit {
+	padding:0 !important;
+}
+.follow-us ul {
+    text-align: center; margin:0;
+}
+.cp{
+  text-align: center;
+  color: #5f5e5e;
+  margin-top: 0px;
+}
+#backtotop{
+  display:none;
+  position: fixed;
+  bottom: 8em;
+  right: 14em;
+  z-index:1;
+ }
+.back-btn a.toTop span {
+    background: #000 none repeat scroll 0 0;
+    border-radius: 5px;
+    color: #fff;
+    opacity: 0.5;
+    padding: 20px;
+    position: absolute;
+}
+.back-btn a.toTop span:hover {
+    background: #c10505 none repeat scroll 0 0;
+    opacity: 1;
+    transition-duration: 0.5s;
+    transition-property: background-color;
+    transition-timing-function: ease;
+} 
+@media screen and (max-width:991px) {
+#backtotop {    bottom: 7em;    right:4.5em;}
+.back-btn a.toTop span {padding:10px;}
+}
+/*********** For Mobile************/
+.mobile-footer {    background: #464646;
+    float: left;
+    padding: 0;
+    border-top: 3px solid #c10504;
+    width: 100%;
+}
+.mfooter-menu {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+}
+.mfooter-menu ul {
+    padding: 0;
+    margin: 0;
+}
+.mfooter-menu ul li {
+    float: left;
+    padding: 5px 0 8px;
+    width: 33.3%;
+    text-align: center;
+}
+.mfooter-menu ul li a {
+    font-size: 12px;
+    color: #fff;
+}

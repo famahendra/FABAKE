@@ -1,0 +1,107 @@
+.page-search h2 {font-size:22px; color:#c10504; margin:20px 0; text-align:center;}
+.page-search .search-form label {
+    font-weight: normal;
+    color: #737373;
+    width: 100%;
+    float: left;
+}
+.page-search .search-form input[type="text"] {border:1px solid #ddd; padding:5px 10px; border-right:none; width: 244px;}
+.page-search .search-form input[type="submit"] {    width: 40px !important;
+    z-index: 11;
+    padding:5px;
+    border: 1px solid #ddd;
+    background: #fff url(../img/search_icon.png) no-repeat center 8px / 17px auto;
+    text-indent: -9999px;
+    border-left: 0;
+}
+.page-search .search-results {
+    padding: 0;
+    margin-bottom: 20px;
+    float: left;
+    width:100%;
+}
+.search-results h3 {margin:5px 0;}
+.search-results h3 a {
+    font-size: 16px;
+    color: #464646;
+}
+li.search-result {
+    width: 48.5%;
+    float: left;
+    background: #fff;
+    border: 1px solid #ddd;
+    margin: 5px;
+    padding: 10px;
+}
+.search-image {
+    width: 23%;
+    float: left;
+}
+.search-image a img {
+    box-shadow: 3px 3px 3px #ccc;
+    padding: 5px;
+	width: 100%;
+}
+.search-content-info {
+    width: 73%;
+    float: right;
+}
+a.searchA {
+    text-align: right;
+    display: inline-block;
+    float: right;
+    font-size: 15px;
+    color: #c10504;
+    border-bottom: 2px solid #c10504;
+    padding: 0 10px;
+}
+p.search-snippet {
+    min-height: 82px;
+    overflow: hidden;
+    color: #737373;
+	max-height: 82px;
+}
+.search-snippet strong {
+    font-weight: normal;
+    color: #464646;
+}
+.previous-next {
+    text-align: center;
+    width: 100%;
+}
+.previous-next-page {
+    display: inline-block;
+    padding: 20px;
+}
+.next,.previous {
+    color: #4898d4;
+    padding: 20px;
+    text-decoration: underline !important;
+}
+
+@media screen and (min-width:481px) and (max-width:767px) {
+li.search-result { width:100%; margin:10px 0;}
+.search-form {
+    margin-top: 39px;
+}
+p.search-snippet {min-height: auto; max-height:auto;}
+}
+@media screen and (min-width:320px) and (max-width:480px) {
+li.search-result { width:100%; margin:10px 0;}
+.search-image {
+    margin-bottom: 10px;
+    text-align: center;
+    width: 100%;
+}
+.search-content-info {
+    float: left;
+    width: 100%;
+}
+.search-form {
+    margin-top: 39px;
+}
+.search-image a img {
+    width: auto;
+}
+p.search-snippet {min-height: auto; max-height:auto;}
+}

@@ -1,0 +1,187 @@
+/******************************** Start offer code popup implemented ****************/
+.v-center > div {
+	display: table-cell;
+	vertical-align: middle;
+	position: relative;
+	top: -10%;
+}
+.btn:hover {
+	background-color: #ed216e;
+	color: #fff;
+    border: 1px solid #ed216e;
+	-webkit-transition: background-color 1s ease;
+	-moz-transition: background-color 1s ease;
+	transition: background-color 1s ease;
+}
+.modal-box {
+    background-color: #ffffff;
+    border-radius: 4px;
+    box-shadow: 0 3px 9px rgba(0, 0, 0, 0.5);
+    display: none;
+    left: 0 !important;
+    margin: 0 auto;
+    max-width: 350px;
+    position: fixed;
+    right: 0 !important;
+    top: 25% !important;
+    width: 98%;
+    z-index: 1000;
+}
+.modal-body{
+position:initial !important;
+}
+
+.modal-overlay {
+    background: #464646;
+    opacity: 0.8px;
+    display: block;
+    height: 100%;
+    left: 0;
+    opacity: 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 900;
+}
+a.close {
+    background-image: url("../img/close-icon.png");
+    background-repeat: no-repeat;
+    background-size: 30px;
+    color: #bbb;
+    font-size: 0;
+    line-height: 1;
+    padding: 15px;
+    position: absolute;
+    right: 0;
+    text-decoration: none;
+    top: 0;
+}
+.special-occasion-wrap {
+    background: #fff url(../img/mothersday-bg.jpg);
+    background-repeat: no-repeat;
+    color: #464646;
+    display: block;
+    float: left;
+    padding: 15px;
+    margin: 0 0 20px;
+    font-family: roboto;
+    text-align: center;
+    width: 100%;
+    box-shadow: 3px 3px 3px #ddd;
+}
+.occasion-msg {
+    font-size: 21px;
+    font-weight: 300;
+}
+
+.special-occasion-wrap h2 {
+    color: #c10504;
+    font-family: "Grand Hotel",cursive;
+    font-size: 60px;
+}
+.offer-button-wrap a {
+    border: 1px solid #444!important;
+}
+.btn:hover {background:#c10504; border-color:#c10504; color:#fff;}
+.occasion-msg3 {
+    color: #464646;
+    font-size: 17px;
+    font-weight: 300;
+}
+.offer-button-wrap section.v-center {
+    margin: 20px 0;
+    text-align: center;
+}
+.v-center {
+    display: table;
+    position: relative;
+    text-align: center;
+    width: 100%;
+}
+.btn {
+    background-color: transparent;
+    border: 1px solid #464646;
+    border-radius: 4px;
+    color: #464646;
+    display: inline;
+    font-size: 14px;
+    margin: 0 5px;
+    padding: 5px 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: background-color 1s ease 0s;
+}
+.offer-wrap {
+    line-height: 100%;
+    margin: 0 auto;
+    width: 300px;
+}
+.offer-code-area {
+    background: #fa4271 none repeat scroll 0 0;
+    color: #fff;
+    font-size: 25px;
+    margin: 15px 0;
+    padding: 10px 0;
+}
+.offer-code-area span.label::after {
+    content: ":";
+    padding: 0 5px;
+}
+.offer-code {
+    color: yellow;
+    font-weight: 400;
+}
+.offer-send-mail > span {
+    color: #737373;
+    font-size: 13px;
+}
+.thanks-msg{
+	padding: 10px 0px 15px 0px;
+}
+
+
+.offer-button-wrap {
+    margin: 20px 0 0;
+}
+
+/******************************** End offer code popup implemented ****************/
+
+.paymnt {
+    float: none;
+    margin: 0 auto;
+    text-align: center;
+}
+.pay-ordno {text-align:center; float:none; margin:0 auto; border-bottom:1px dashed #ddd; border-top:1px dashed #ddd; padding:6px 0;}
+.paymnt-hed {color:#c10510; font-size:22px; text-transform:uppercase0; margin:20px 0;}
+.pay-ordno label {color:#848683; padding-right:5px; font-weight:normal;}
+.pay-ordno span {font-size:16px;}
+.pay-msg p {margin:0; line-height:20px;}
+.pay-msg {margin:10px 0 20px; padding:0;}
+.pay-trans {text-align:center; font-size:20px; margin:10px 0;}
+.tran-detl {padding:0; line-height:40px; background:#f0e7e8; border:1px solid #d9d9d9; text-align:center; font-size:15px;}
+.trans-prod label { float: left;    font-weight: normal;     text-align: right;    width: 50%;}
+.trans-prod label:after {content:":"; float:right; padding:0 5px;; text-align:right;}
+.pay-trcordr {text-align:center; margin:15px 0;}
+.pay-trcordr input,.pay-trcordr a {padding:8px 20px; color:#fff; background:#c10510; font-size:16px; border:none;}
+.trans-prod > span {
+    display: inline-block;
+    float: left;
+    text-align: left;
+    width: 46%;
+}
+.t_prodname span {white-space:nowrap; overflow:hidden; text-overflow:ellipse;}
+
+@media screen and (min-width:320px) and (max-width:767px) {
+.offer-button-wrap a {
+   margin: 5px;
+    width: 45%;
+}
+.special-occasion-wrap h2 {font-size:45px;}
+.special-occasion-wrap {background:#fff; margin: 0;}
+.occasion-msg3 {margin:10px 0;}
+}
+@media screen and (min-width:768px) and (max-width:992px) {
+.trans-prod {padding:0;}
+.special-occasion-wrap {background:#fff;}
+
+}

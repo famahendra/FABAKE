@@ -1,0 +1,787 @@
+/*breadcrumb css*/
+.breadcrumb {
+	background: #fbf3f3 !important;
+}
+.breadcrumb a {
+	color: #868686;
+	text-decoration: none;
+}
+/****flex Slider******/
+.form-item-line-item-fields-field-ph-weight-und-0-value input{
+	width:15%;
+    background: none;
+    border: none;
+}
+#flexslider-1 .flex-direction-nav a:before,.ajax-progress-throbber .message,.image-widget-data .chosen-container,.rcake-price .field-name-field-sell-price .field-label,.form-item.form-type-managed-file input[value="Remove"] ~ .pty,.file-size,.file{
+	display:none !important;
+}
+#flexslider-1 .flex-direction-nav a {
+    font-size:0 !important;
+}
+#flexslider-1.flexslider{
+	background:transparent !important;
+	border:none !important;
+	margin:0 !important;
+}
+#flexslider-1 .flex-control-thumbs li {
+    margin: 2px 8px !important;
+	padding: 4px;
+    width: 25%;
+	background:#fff;
+}
+/*regular product page css*/
+.commerce-add-to-cart .chosen-single {
+    height: 30px;
+    line-height: 30px;
+}
+
+.field-name-field-pcake-flavour .form-item-line-item-fields-field-pcake-flavour-und div.chosen-container a.chosen-single {
+    width: 186px;
+}
+
+.commerce-add-to-cart .chosen-single div b {background-position:-11px 0;}
+section.main-container {
+    clear: both;
+}
+section.cake-wrap {
+	background: #fbf3f3;
+	float: left;
+}
+#flexslider-1 .slides li img {
+	margin: 15px 0 20px;
+	background: #fff;
+	padding: 7px;
+	width: 100%;
+	transform: rotate(-2deg);
+	-moz-transform: rotate(-2deg);
+	-webkit-transform: rotate(-2deg);
+	-ms-transform: rotate(-2deg);
+    -0-transform:rotate(-2deg);
+	position: relative;
+	box-shadow:5px 6px 3px #dddddd
+}
+#flexslider-1 .slides li:after{
+	background: url("../img/jelly-icon.png") no-repeat center;
+	content: "";
+	height: 68px;
+	position: absolute;
+	right: -32px;
+	top: -13px;
+	width: 75px;
+}
+.field-name-field-sell-price.field-type-commerce-price, .field-name-field-sell-price,.pd-orgp > .commerce-product-field-commerce-price {
+	color: #464646;
+    display: inline-block;
+    font-size: 24px;
+	margin: 6px 0 5px -6px;
+	font-weight: normal;
+}
+.commerce-product-field-commerce-price  {
+    display: inline-block;
+    margin-right: 19px;
+	float:left;
+	font-weight:normal;
+	font-size:24px;
+}
+.rcake-details {
+	margin-top: -12px;
+	padding-left:50px;
+}
+.rcake-title h1{
+	color: #c10505;
+	font-size:24px;
+	margin: 0;
+	line-height:30px;
+	font-weight:normal;
+}
+.cke-dt {border-bottom:1px solid #efe6e7; padding: 10px 0 4px;}
+.rcake-review-box, .rcake-rating,.desc-txt  {
+	padding-left: 0;
+}
+.rcake-price tbody {
+	border-top: none;
+}
+.rcake-review-box {
+	font-size: 12px;
+	margin: 4px 0 15px;
+	border-bottom: 1px solid #868686;
+	padding-bottom: 12px;
+}
+.rat{
+	padding-left: 0;
+}
+.rcake-sku {
+	text-align: end;
+	color: #868686;
+	font-size: 12px;
+}
+.commerce-price-savings-formatter-price,.recent-box{
+	padding:0 !important;
+}
+.rcake-ptitle {
+	font-size: 12px;
+	color: #464646;
+	padding-left: 0;
+}
+.rcake-desc {
+	margin-top: 18px;
+	background: #fff;
+	padding: 13px;
+	float: left;
+}
+.commerce-add-to-cart input[type="submit"].form-submit {
+    background: #c10505;
+    border:none;
+    color: #ffffff;
+    float: left;
+    font-size: 16px;
+    line-height: 40px;
+    padding:0 45px;
+}
+div#block-views-might-like-block h2, .recent h2, .like h2 {
+	font-size: 18px;
+	font-weight: bold;
+	color: #c10505;
+	border-bottom: 1px solid #ddd;
+	margin-bottom: 16px;
+	padding-bottom: 18px;
+}
+.commerce-add-to-cart .form-item-attributes-field-weight select, .commerce-add-to-cart .field-name-field-shape select,.field-name-field-pcake-flavour select {
+	-moz-appearance: none;
+	-webkit-appearance: none;
+	-ms-appearance: none;
+	appearance: none;
+	border: 1px solid #dddddd;
+	padding: 8px 10px;
+	width: 100px;
+	border: 1px solid #d0cece;
+	background: #fff url("../img/down-arrow.png") no-repeat 96% 56%/13px auto;
+	outline:none;
+	text-overflow:ellipsis;
+}
+.field-name-field-pcake-flavour select {width:143px;}
+/*** percent off Css**/
+.discounted-price {
+    display: inline-block;
+   	width:56px;
+    color:#003129;
+    font-weight: normal;
+    text-align: center;
+	background:url(../img/sprite.png) no-repeat 6px -444px/61px auto;
+	margin-left: 14px;
+    height: 46px;
+}
+.discounted-price span {
+    display: block;
+    font-size: 12px;
+}
+/** Cake Discription*************/
+.cake-wrap .form-type-textfield, .field-name-field-product{
+	clear: both;
+	width: 100%;
+	float: left;
+}
+.commerce-add-to-cart label{
+	font-weight:normal;
+	color: #464646;
+	width:67px;
+	float:left;
+	padding:0;
+	line-height: 25px;
+}
+.dlvry_pin label:after {
+    content: ":";
+    padding: 0;
+}
+.node-type-regular-cake .commerce-add-to-cart .form-checkboxes,.node-type-party-cake .commerce-add-to-cart .form-checkboxes {margin-top:-3px;}
+.vr-txt {
+    width: 117px;
+    float: left;
+    padding-left: 28px;
+    background: url(../img/sprite.png) no-repeat -17px -245px;
+    color: green;
+	margin-top: 11px;
+	font-weight:400;
+	background-size: 61px auto;
+}
+.form-item.form-type-checkbox label {
+	color: #868686;
+}
+.commerce-add-to-cart .form-checkboxes {
+	display: inline-block;
+	float: left;
+}
+.commerce-add-to-cart .form-item-line-item-fields-field-variant-und, .commerce-add-to-cart .field-name-field-shape {
+	display: inline-block;
+} 
+.commerce-add-to-cart .form-item-attributes-field-weight,.node-type-photo-cake #line-item-fields-field-ph-weight-add-more-wrapper{
+	float: left;
+	font-weight: normal;
+	width:56%;
+}
+.node-type-photo-cake .vr-txt,.field-name-field-shape {
+    float: right;
+    width: 44%;
+}
+.field-name-field-shape {margin:-4px 0;}
+.field-name-field-pcake-flavour {
+    width:100%;
+    float: left;
+	margin-bottom:10px;
+}
+.node-type-party-cake .field-name-field-pcake-flavour  {margin:0 0 5px;}
+.commerce-add-to-cart .form-type-checkbox input[type="checkbox"] {
+    float: left;
+    margin: -6px 6px 0 -5px;
+}
+.commerce-add-to-cart .form-type-checkbox label {
+	cursor: pointer;
+	float: left;
+	margin: -9px 0 0 !important;
+}
+.form-item-line-item-fields-field-message-und-0-value .text-full {
+    width: 60%;
+	border: 1px solid #d0cece;
+	line-height: 30px;
+    padding: 0 10px;
+	height:30px;
+}
+.form-item.form-type-textfield.form-item-line-item-fields-field-message-und-0-value > span {
+    color: #464646;
+    float: left;
+	clear:both;
+    font-size: 11px;
+    font-weight:400;
+    margin: 0;
+	line-height: 0;
+}
+#charNum {
+    color: #878787;
+    float: right;
+    font-size: 11px;
+    margin: 0;
+    padding: 0;
+    width: 43%;
+}
+/************ Delivery CSS************/
+.delivery {
+    display: inline-block;
+    float: right;
+    position: relative;
+    width: 196px;     margin-top: -44px;
+}
+.delivery:before {
+    border-left: 1px solid #cccccc;
+    content: "";
+    height: 48px;
+    left: -55px;
+    position: absolute;
+}
+.delivery p {
+	color: #7d7d7d;
+	font-size: 11px;
+	margin-bottom: 0;
+}
+.delivery p strong {
+	font-size: 15px;
+	color: #464646;
+	font-weight: normal;
+}
+/**** END Delivery CSS**** Start image Css of photo    *******/
+
+.js-recent-view-price .lst-price {
+    font-size: 14px;
+    padding-left: 5px;
+    text-decoration: line-through;
+}
+
+.field-type-image .image-widget-data {position:relative;}
+.field-type-image .image-widget-data input[type="file"]{
+	opacity:0;
+	filter: alpha(opacity=0);
+	outline: none;
+	width:112px !important;
+	overflow:hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+	float:left;
+}
+.image-widget-data .pty {
+    border: 1px solid #c10504;
+    color: #c10504;
+    cursor: pointer;
+    left: 4px;
+    overflow: hidden;
+    padding: 4px 55px 4px;
+    position: absolute;
+    text-overflow: ellipsis;
+    top: -5px;
+    white-space: nowrap;
+	max-width:200px;
+}
+.commerce-add-to-cart .image-widget {
+	display:inline-block; position:relative;
+}
+.image-widget {
+    margin: 5px 0 0;
+}
+.field-widget-image-image {float:left; width:100%;  margin: 10px 0;}
+.field-widget-image-image label  {float:left; line-height: 28px;}
+.description {
+    color: #c7bab8;
+    margin-top:-2px;
+    text-align: right;
+    width: 57%;
+}
+/** errror Msg/**********/
+.flavour.error, .imageupload.error {
+    color: #f00;
+    font-size: 12px;
+    padding-left: 28%;
+    top: -10px;
+    width: 100%;
+}
+.imageupload.error {
+    bottom: -36px;
+    left: 2px;
+    padding: 0;
+	top: 46px;
+    position: absolute;
+    width: 180px;
+}
+
+.form-item-line-item-fields-field-ph-weight-und .chosen-container {
+    width: 150px !important;
+}
+
+.file-upload-js-error ~ .imageupload.error {
+    display: none;
+}
+.file-upload-js-error {position: absolute;
+    width: 412px;
+    padding: 2px !important;
+    background-image: none !important;
+    top: 26px; font-size:12px;}
+.imghelptext {    position: absolute;
+    color: red;
+    font-size: 12px;
+    top: -17px;
+    left: 15%;}	
+/*********** Chef Words CSS******/
+.rev {
+	right: 39px;
+	color: #464646;
+}
+
+.rdesc-tl {
+    color: #464646;
+    font-size: 18px;
+   margin: 0 0 9px;
+}
+.rcake-desc .field.field-name-field-description {
+	color: #737373;
+	text-align: justify;
+	font-size: 13px; word-spacing:-1px;
+}
+/**** yOu may also like & recent view CSS******/
+.lk-hd, .rct-hd {
+	font-size:18px;
+	color: #bf0506;
+	border-bottom: 1px solid #ece2e2;
+	margin: 0 0 20px;
+	padding-bottom: 10px;
+    font-weight:400;
+}
+.communication-link {
+   display: inline-block;
+   float: right;
+margin-right:15px;
+}
+.communication-link a {
+   color: #c10504;
+   padding: 2px 10px;
+   border: 1px solid #c10504;
+   font-size: 14px;
+   text-transform: capitalize;
+}
+
+.mg-title, .js-recent-view-title {
+	font-size: 16.44px;
+	color: #c10505;
+	margin-top: 10px;	
+}
+.mg-pd, p.js-recent-view-longtitle {
+	font-size: 14.39px;
+	color: #868686;
+	margin-bottom: 16px;
+}
+.mg-desc, .js-recent-view-desc {
+	font-size: 12px;
+	margin-bottom: 11px;
+	color: #464646;
+	white-space: initial;
+	height: 50px;
+    overflow: hidden;
+}
+.mg-price, .js-recent-view-price {
+	padding-left: 0;
+	margin-bottom: 13px;
+}
+
+.mg-price .lst-price {
+    font-size: 12px;
+    font-weight: 300;
+    margin: 0;
+    padding: 0 0 0 10px;
+    text-decoration: line-through;
+    vertical-align: middle;
+}
+
+.might-img-wrap {
+    position: relative;
+}
+.might-img-wrap .mg-p {
+    background-color: #000;
+    bottom: 0;
+    color: #fff;
+    font-size: 16px;
+    left: 0;
+    padding: 0 15px;
+    position: absolute;
+}
+
+.might-img-wrap .mg-p .lst-price {
+    font-size: 14px;
+    text-decoration: line-through;
+}
+
+.mg-p, .js-recent-view-price {
+    background-color: #000;
+    bottom: 0;
+    color: #fff;
+    font-size: 16px;
+    left: 0;
+    margin: 0;
+    padding: 0 15px;
+    position: absolute;
+}
+
+.mg-img {
+    position: relative;
+}
+
+.mg-try, .js-recent-view-try {
+	text-align: center;
+	color: #c10505;
+	text-decoration: none;
+	font-size: 16px;
+	display: block;
+	border-bottom: 2px solid #c10505;
+	padding: 0 0 4px;
+}
+.commerce-add-to-cart .form-type-checkbox label:after {
+	content: none;
+}
+.rcake .container,.rcake{
+	margin: 0;
+	padding: 0;
+}
+.rcake .form-item.form-type-managed-file input[value="Remove"] {
+    background: rgba(0, 0, 0, 0);
+    border: medium none;
+    color: #4894d4;
+    margin-left: 0 !important;
+    width: auto;
+    padding: 0;
+    FONT-SIZE: 14PX;
+    text-decoration: underline;
+}
+.add-cart-message-wrapper {
+	z-index: 9999 !important;
+}
+.like, .recent {
+	clear: both;
+	padding:0;
+	 float: left;
+	 width:100%;
+}
+
+.like {
+    margin: 30px 0 0;
+    padding: 0;
+}
+
+.form-item, .form-actions {
+	margin:10px 0 !important
+}
+.commerce-add-to-cart .field-name-field-message {
+    margin-bottom:10px;
+}
+.pd-orgp {
+    float: left;margin-left: 5px;
+}
+/* product delivery search by pincode */
+.dlv_code .form-item-zipcode {float: left;   width:65%;  margin: 0 !important; position:relative;}
+.dlv_code label {width:22%;}
+.sry_msg {float:left; width:85%;}
+.dlvry_pin input[type="number"] {border:none; font-size: 13px; background:transparent; width: 64%;}
+.dlvry_pin > input[type="submit"] {
+    background: transparent none repeat scroll 0 0 !important;
+    color: #0054a6 !important;
+    display: inline-block;
+    font-size: 14px !important;
+    line-height: 30px !important;
+    margin-top: -3px;
+    padding: 0 !important;
+    text-transform: uppercase;
+    width: 15% !important;
+}
+.sry_msg-dlvry p,.success_msg-dlvry p {color:#fe0000; margin:0; font-size:14px; display:inline-block;}
+.sry_msg-dlvry a,.success_msg-dlvry a {text-transform:uppercase; padding-left:4px; font-size:13px; color: #0054a6; }
+.success_msg-dlvry p {color:#488e83;}
+.success_msg-dlvry,.sry_msg-dlvry {display: inline;}
+.product-availablity.dlv_code.dlvry_pin,#commerce-product-available-result {float: left;  margin:10px 0 15px;    width: 100%;}
+
+.dlvry_pin .form-item-zipcode input#edit-zipcode, .dlvry_pin .form-item-zipcode input.form-text {
+   -webkit-appearance: none;
+    -moz-appearance: textfield;
+    appearance: none;
+    margin: 0; 
+    background-color: transparent;
+    border: medium none;
+}
+
+.dlvry_pin input[type="text"]:focus {    outline: none;}
+.dlv_code .form-item-zipcode:after {content: ""; border-bottom: 1px solid #d1bdbd; width: 100%; position: absolute; bottom: 2px; right:-66px;}
+/* end product delivery search by pincode */
+.form-item-line-item-fields-field-image-und-0 {position:relative; margin-top:3px !important;}
+.recent {margin:30px 0;}
+ @media (min-width: 1200px) {
+.container {
+	max-width: 1000px;
+}
+}
+@media screen and (min-width:768px) and (max-width:992px) {
+	.rcake {margin-top:30px !important;}
+.cake-wrap .container,.commerce-add-to-cart .form-checkboxes {
+	padding: 0;
+}
+.rcake-details {padding-left:25px;}
+.commerce-add-to-cart .field-name-field-shape {display:block;}
+.commerce-add-to-cart .form-item-attributes-field-weight,.commerce-add-to-cart .field-name-field-shape,.field-name-field-pcake-flavour{    width:100%;}
+.rcake .field-type-text.field-name-field-message, .messages.error {	margin-bottom: 10px;}
+.dlv_code .form-item-zipcode {width:67%;}
+.dlv_code label {    width: 29%;}
+.delivery {width: 48%;}
+.description {width:85%;}
+.delivery:before {border:none;}
+.commerce-add-to-cart select,.commerce-add-to-cart .image-widget,.form-item.form-type-textfield input {    width: 75% !important;}
+.dlvry_pin input[type="number"] {width:54% !important;}
+.cke-dt {float: left;    width: 100%;}
+.dlvry_pin > input[type="submit"] {right:16%; left:inherit;}
+.rcake-desc {
+    margin-top: 18px;
+    position: absolute;
+    left: -100%;
+    bottom: -160px;
+	right: 9%;
+}
+.desc-img {
+    text-align: center;
+}
+.cake-wrap .rcake-details {
+    margin-bottom:21%;
+    float: left;
+}
+.vr-txt {margin-left: 67px; margin-bottom: 10px;}
+.node-type-photo-cake .vr-txt{margin:13px 0 0;}
+.node-type-photo-cake  #line-item-fields-field-ph-weight-add-more-wrapper input {
+    width: 46% !important;
+}
+.node-type-photo-cake .cake-wrap .rcake-details {margin-bottom:40px;}
+.imghelptext {left:21%;}
+}
+@media only screen and (max-width : 767px) {
+	
+/*body.page-node	{ margin-left:20px; margin-right:20px;}*/	
+section.main-container {
+    clear: both;
+    padding-left:0px;
+    padding-right:0px;
+}
+.main-container .row .cake-wrap {
+    padding:0 20px;
+}	
+.field-name-field-sell-price.field-type-commerce-price, .field-name-field-sell-price, .pd-orgp > .commerce-product-field-commerce-price {
+    color: #464646;
+    display: inline-block;
+    font-size: 16px !important;
+    font-weight: 300;
+    margin: 5px 0 5px -35px;
+}	
+	
+#flexslider-1 .flex-control-nav {
+    bottom: -10px;
+    display: block;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+}
+#flexslider-1 .slides li:after {
+    background-size: 45px auto;
+    right: -15px;
+    top: -32px;
+}
+.table.commerce-price-savings-formatter-prices.rcake-title,.commerce-add-to-cart input[type="submit"].form-submit{width:100%; text-align:center;}
+.rcake-details,#flexslider-1.flexslider,.commerce-add-to-cart .form-item-attributes-field-weight {
+	margin:0 !important;
+}
+.cake-wrap .container, .rcake-details, section.cake-wrap, .rcake-img {
+    padding: 30px 0 0;
+}
+.rcake-title, .rcake-price {
+	text-align: center; position:relative;
+}
+.desc-txt {padding:15px 0 0;}
+.rcake-title h1 {margin-top:18px;}
+.rcake-ptitle {
+	display: block;
+	float: left;
+	margin-bottom: 5px;
+}
+.cke-dt {
+    width: 100%;
+    float: left;
+    padding-bottom: 0;
+}
+.commerce-add-to-cart label {
+	float: left;
+	width: 22% !important;
+}
+.node-type-photo-cake .field-name-field-ph-weight label {line-height:normal;}
+.commerce-add-to-cart .form-item-attributes-field-weight,.commerce-add-to-cart .field-name-field-shape,.field-name-field-pcake-flavour,.node-type-photo-cake #line-item-fields-field-ph-weight-add-more-wrapper{
+	float: left;
+	width: 100%;
+}
+.commerce-add-to-cart select, .form-item.form-type-textfield input[type="text"],.commerce-add-to-cart .image-widget {
+	width: 75% !important;
+}
+.description {width:95%; margin:-5px 0 12px; text-align:center;}
+.delivery {
+	margin-top: 30px;
+	padding-left: 101px;
+	width: 100%;
+	min-height: 25px;
+}
+.delivery:before {content:none;}
+.rcake-desc {
+	text-align: center;
+	clear: both;
+	width:100%;
+}
+.desc-txt div.field-item {
+ color: #666;
+ font-size:14px;
+}
+.commerce-add-to-cart .image-widget {    padding: 0;    margin-left: -5px;}
+.form-item, .form-actions {    margin: 8px 0 !important; position:relative;}
+.dlv_code .form-item-zipcode:after {bottom:7px;}
+
+.dlvry_pin .form-item-zipcode input#edit-zipcode {
+    -moz-appearance: textfield;
+    background-color: transparent;
+    border:none;
+    margin: 7px 0 0;
+	padding-bottom: 9px;
+}
+
+.success_msg-dlvry, .sry_msg-dlvry {line-height:32px;}
+.commerce-product-field-commerce-price {    float: none;    margin: 0 auto;    display: inline-block;    font-size: 22px;    font-weight: normal;     padding: 12px 0;}
+.commerce-add-to-cart .form-item-attributes-field-weight, #edit-line-item-fields-field-pcake-flavour{width:100%;}
+
+.commerce-add-to-cart .form-item-attributes-field-weight label, .commerce-add-to-cart .form-type-textfield label {
+    padding-right:0px;
+}
+.form-item.form-type-textfield.form-item-line-item-fields-field-message-und-0-value > span {
+    bottom: 5px;
+    left: 0;
+    position: absolute;
+}
+
+.image-widget-data .form-file, .image-widget-data {
+    margin-bottom:3px;
+}
+.rcake-title h1 {
+    font-size: 24px;
+    margin: 0;
+}
+.delivery:after {
+    background:url("../img/sprite.png") no-repeat -4px -584px;
+    content: "";
+    height: 50px;
+    left: 20px;
+    position: absolute;
+    top: -5px;
+    width: 50px;
+}
+
+#charNum {
+    color: #878787;
+    float: right;
+    font-size: 11px;
+    margin: 3px -15px 0 0;
+    padding: 0;
+    position: absolute;
+    right: 0;
+    width: 43%;
+}
+
+.form-item-line-item-fields-field-message-und-0-value label span {
+    line-height: 0;
+}
+
+.might-blk a { text-align:left; display: block;}
+.dlv_code .form-item-zipcode {
+    width: 100%;
+}
+.dlvry_pin input[type="text"] {padding-left: 15% !important;}
+.dlvry_pin input.form-submit[type="submit"] {
+    margin: 3px 0 0 27%;
+    position: absolute;
+    right: 0;
+    width: auto !important;
+}
+.row,.communication-link { margin:0;}
+
+.pd-orgp {
+    width: 100%;
+    margin-top: -18px;
+}
+.dlv_code label {    width: 24% !important;}
+.dlv_code .form-item-zipcode::after {
+    bottom: 6px;
+    left: 22%;
+    width: 77%;
+}
+.discounted-price {position:absolute; top: 50px; right: 38px;}
+.imghelptext {left:23%;}
+label:after {    content:none;}
+required {
+    position: inherit;
+}
+.commerce-add-to-cart .form-type-checkbox input[type="checkbox"] {    margin: 6px 6px 0 2px;}
+.commerce-add-to-cart .form-type-checkbox label {    margin: -4px 0 0 !important;}
+.vr-txt {    margin: 14px 0 10px 22%;}
+.node-type-photo-cake .vr-txt {
+    float: left;
+    width: 78%;
+	margin:0 0 10px 22%;
+}
+}
+@media only screen (max-width:320px){
+.desc-txt div.field-item {font-size:13px;}	
+	
+}
+
+
+/************* End owl slider ************/

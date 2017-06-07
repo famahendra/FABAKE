@@ -1,0 +1,648 @@
+.dash-menu {padding:0 !important;}
+.dash-menu {width:19%; float:left; border:1px solid #d6c8c8;}
+.dash-menu ul {padding:0; margin:0; border-bottom:5px solid #d6c8c8; background:#fff;}
+.dash-menu ul li { padding-left:10px; border-bottom:1px solid #e5d9d9; line-height:40px; list-style:none; }
+.dash-menu ul li a {font-size:14px; color:#464646; display:block; text-decoration:none; position:relative;}
+.dash-menu ul li:hover a{color:#c10504; }
+.dash-menu ul li:hover a:after,.dash-menu ul li a:after {content:""; padding-left:5px; position:absolute; background:#fff url(../img/sprite.png) no-repeat -50px -149px; height: 31px;right:20px; width: 20px;}
+.dash-menu ul li a:after {
+    background:#fff url("../img/sprite.png") no-repeat -50px -122px;}
+ul.tabs.primary li{
+	display:block;
+}
+
+section.account-pg .container .dash-cont .ormsg {
+    padding-top: 20%;
+    text-align: center;
+}
+.page-user-change li.chpass-tab a{
+        color: #c10504;
+}
+
+.main-menu .city-select select#cty {line-height:16px !important;}
+.loader {display:none;}
+.dash-menu ul li a.active{ color:#c10504 }
+/************* my account CSS**********/
+.usr-inf label{font-weight:normal; width:138px; text-align:left;}
+.usr-inf label:after {content:":"; float:right; padding:0 20px;}
+.ac-edit {text-align:center; margin:20px 0;}
+.ac-edit button {padding:5px 20px; background:#c10504; color:#fff; border:1px solid #ffb7b7;	}
+/*************end my account CSS**********/
+.ac-wrap .form-submit{width:40% !important;}
+.ac-sub {text-align: center; margin-left:16px;}
+.account-tl {
+    font-size: 22px;
+    padding-top: 10px;
+    text-align: center;
+}
+.account-pg {
+    background: #fbf3f3 !important;
+    padding-bottom: 15px;
+	clear:both;
+}
+.account-pg .quicktabs_main.quicktabs-style-navlist{
+	background: #fff !important;
+}
+.ac-wrap label {
+    display: inline-block;
+    font-weight: normal;
+	width: 138px;
+	line-height:30px;
+}
+.usr-infrmtn {padding: 20px;}
+.usr-inf {line-height: 30px;}
+.ac-name label  {background:url("../img/ordr-icon.png") no-repeat -10px -75px; padding-left: 26px;}
+.ac-phone label {background:url("../img/ordr-icon.png") no-repeat -13px -7px; padding-left: 26px;}
+.ac-mail label {background:url("../img/ordr-icon.png") no-repeat -13px -40px; padding-left: 24px;}
+.ac-gender label {background:url("../img/ordr-icon.png") no-repeat -13px -109px; padding-left: 26px;}
+.ac-bday label {background:url("../img/ordr-icon.png") no-repeat -13px -147px; padding-left: 26px;}
+.dash-cont {
+    background: #ffffff;
+    border: 1px solid #ecdada;
+    margin-left: 15px;
+    min-height: 395px;
+    padding: 0;
+	overflow: hidden;
+}
+.ac-phone #edit-field-user-phone-cell-und-0-country-codes {
+    -moz-appearance: none;
+	-webkit-appearance: none;
+	-ms-appearance: none;
+    border:none;
+    width:30px;
+	background:transparent;
+}
+.ac-sub input, .ac-edit a {
+    background: #c10504 none repeat scroll 0 0;
+    border: 2px solid #c14b5b;
+    color: #ffffff;
+    font-size: 14px;
+    padding: 3px 10px;
+    width: 138px !important;
+}
+.ac-phone .form-phone-number,.ac-phone .form-phone-number input,input#edit-mail {background:#efefef;}
+
+.page-user-edit ul li.ac-tab a,.page-user-addressbook-shipping.page-user-addressbook-shipping-create 
+li.addr-tab a,.page-user-orders- li.vord-tab a{
+   color: #c10504;;
+}
+
+.form-item input.error, .form-item textarea.error, .form-item select.error {
+    border: 2px solid red !important;
+}
+
+.form-item.form-type-textfield.form-item-field-birthday-und-0-value-date input{
+    width: 60% !important;
+    padding-right: 170px;
+}
+
+.ord-type{
+        font-size: 12px;
+    margin-top: 5px;
+    color: #999;
+    float: left;
+    clear: both;
+}
+/*********** My order CSS*************/
+.order-wrap,.ord-img,.p-dtl,.ord-conts,.ord-cont,.p-prch,.pdlv-dt{
+    padding: 0 !important;
+}
+.rct {
+ 	border: 1px solid #cccccc;
+    min-height: 170px;
+    margin: 10px 3px 0;
+    overflow: hidden;
+    padding: 5px !important;
+    width: 49%;
+}
+.ord-tl,.adon-tl {
+    font-size: 15px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    text-transform: uppercase;
+    white-space: nowrap;
+}
+.ord-conts {
+    padding-left: 5px !important;
+	color:#464646;
+}
+.ord-conts span {
+    display: inline-block;
+    width: 87px;
+	color:#868686;
+}
+.ord-conts span:after {
+    content: ":";
+    float: right;
+    padding-right:15px;
+}
+.dash-cont .view-group-footer,.ac-stus {
+    float: none;
+    margin: 0 auto;
+    max-width: 445px !important;
+}
+.a-dtl {padding:8px 0 !important; text-align:center; border-bottom:1px dashed #d1d1d1;}
+.a-dtl .p-dtl {padding:10px 0 20px !important; text-align:center;}
+.a-dtl .ac-p {color:#888;text-transform:uppercase;}
+.p-stus {font-size:15px; color:#464646; text-align:center; padding-top:10px;}
+.p-sts-d {color: #29823e;}
+.acp-ttl {font-size:16px; border-top: 1px dashed #d1d1d1;}
+.p-gttl, .p-ttl,.ds-ttl,.mp-ttl,.p-ttl {text-transform:uppercase;text-align: left;  width:45%; display:inline-block;}
+.p-ttl::after,.p-gttl:after,,.ds-ttl:after,.mp-ttl:after {content:":"; padding:0 10px;float: right; }
+.p-odr,.acp-ttl,.p-reodr {padding: 15px 0 10px; text-align:center;}
+.p-reodr input {width:130px; padding:5px 10px; border:2px solid #c14b59; background:#c10504;color:#fff; font-size:15px;}
+.acp-ttl span.p-ttl, .acp-ttl span.ttlp{
+    border-bottom: 1px dashed #d1d1d1;
+    border-top: 1px dashed #d1d1d1;
+    display: inline-block;
+    line-height: 30px;
+	width:33%
+}
+.acp-ttl span.p-ttl {width:45%;}
+.p-dtl {
+    padding-bottom: 10px !important;
+}
+.acp-ttl p {margin:0;}
+.acp-ttl p:last-child {
+    border-bottom: 1px dashed #d1d1d1 !important;
+	font-size:17px;
+}
+span.midc {
+    width: 19%;
+    display: inline-block;
+}
+.midpr, .dispr,.sbtl{
+    font-size: 13px;  padding-bottom: 5px;
+}
+.disp {
+    color: green;
+}
+/******************** View Invoice CSS************/
+.or-id p {
+    display: inline-block;
+	position:relative;
+}
+.or-id > p:before {
+    border-bottom: 1px solid #d6c8c8;
+    content: "";
+    height:32px;
+    position: absolute;
+    width: 180%;
+	left:-20px;
+}
+.or-id {
+    text-align: center;
+    font-size: 19px;
+    text-transform: uppercase;
+    color: #be0503;
+	margin: 15px 0;
+}
+.order-det {margin-bottom:25px;font-size: 12px;}
+.order-det p {
+    font-size: 16px;
+    border-bottom: 1px solid #d6c8c8;
+    padding-bottom: 2px;
+	 color: #464646;
+	  margin: 2px 0;
+}
+.msg-det {
+    margin-top: 4px;
+}
+.order-det p:after {
+    content: ":";
+    padding-left: 4px;
+}
+.mtxt {
+    display: inline-block;
+    float: left;
+    font-size: 10px !important;
+}
+.ord-mess {font-size:12px;}
+.p-ord {
+    font-size: 16px;
+float: left;
+width: 100%;
+margin-bottom: 5px
+}
+.vie-inv {
+    width: 50%;
+float: right;
+text-align: right;
+}
+.vie-inv a {
+    color: #464646;
+    border-bottom: 1px solid #a2a2a2;
+}
+.ac-wrap input, .ac-wrap select, .ac-phone .form-phone-number,.ac-gender select {
+     border: 1px solid #d9d9d9;
+    padding: 5px;
+    width: 38% !important;
+	display: inline;
+}
+.ac-gender select{ background:url(../img/down-arrow.png) no-repeat 98% 55%/13px auto;}
+.ac-bday .date-date input {
+    width:66% !important;
+}
+.ac-wrap label:after {
+    content: ":";
+	 padding-right: 20px;
+    float: right;
+}
+.order-det .field-label,.description {
+    display: none;
+}
+.ac-phone .form-phone-number select{
+    -moz-appearance: none;
+	-webkit-appearance: none;
+	-ms-appearance: none;
+    background:transparent;
+    border: medium none;
+    padding: 0;
+    width: 46px !important;
+}
+.ac-gender select {
+	-moz-appearance: none;
+	-webkit-appearance: none;
+	-ms-appearance: none;
+}
+.ship-det .street-block, .ship-det .country-IN, .ship-det .country, .msg-det,.mtxt {
+    color: #888888;
+    font-size: 12px;
+    line-height: 1.2;
+}
+.order-bill a {color:#464646;}
+.order-det .field-type-phone-number .field-item::before {
+    content: "M :";
+    padding-right: 10px;
+}
+.ac-phone .form-phone-number,.date-date {display:inline-block; width: 70%;}
+.inv {
+    width: 48%;
+    min-height: 175px;
+    border: 1px solid #efefef;
+    padding: 5px;
+    margin: 5px 4px;
+}
+.ord-conts span.imsg-txt::after,.ord-tl span:after {
+    content: none;
+}
+.mtxt {
+  bottom: -19px;
+    left: 4px;
+    position: absolute;
+}
+.ord-mess span {float:left;}
+/************Change Address*******************/
+.p-add .name-block {
+    color: #464646;
+    font-size: 15px;
+}
+.add-edit,.add-dlt {float:right;}
+.prf-add {
+    background: #ffffff;
+	border:1px solid #dcdcdc;
+     margin: 10px 6.2px 0px;
+    min-height: 177px;
+    width:31.62%;
+	 float: left;
+}
+.p-add {
+    clear: both;
+    color: #888888;
+    font-size: 13px;
+}
+.addressbook-link-edit {
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.addressbook-link-default a {
+    visibility: hidden;
+}
+.addressbook-link-delete a {
+    color: #737373;
+    text-transform: capitalize;
+	font-size: 13px;
+	display:block;
+}
+.addressbook-link-delete {
+    background:#e8e8e8 url("../img/sprite.png") no-repeat -12px -564px;
+    bottom: 0;
+    float: right;
+    margin-top: 10px;
+    padding: 4px 0;
+    position: absolute;
+    right: 0;
+    text-align: center;
+    width: 80px;
+}
+.addressbook-link-edit a {color:transparent; display:block; background:url("../img/sprite.png") no-repeat -15px -536px;}
+.add-address a {
+    background: #c10504;
+    color: #ffffff;
+    font-size: 16px;
+    padding: 8px 17px;
+	display: inline-block;
+}
+.add-address {
+    margin: 20px 0;
+    text-align: center;
+	clear: both;
+}
+.p-aphone > span:after {
+    content: ":";
+    padding-right: 10px;
+}
+.confirmation > div {
+    padding: 10px 0 0 26px;
+}
+
+.dash-cont .course-view-processed form.confirmation {
+    background: transparent none repeat scroll 0 0;
+    border: 1px solid #ccc;
+    margin: 20px auto auto;
+    max-width: 290px;
+    padding: 0;
+    width: 100%;
+}
+
+
+/************************** ADD Address*****************************/
+#addressfield-wrapper fieldset legend {
+    color: #c10504;
+    padding: 10px 0;
+    text-align: center;
+}
+#addressfield-wrapper fieldset legend span {border-bottom:1px solid #c10504; padding-bottom:2px;}
+#addressfield-wrapper .fieldset-wrapper,#commerce-addressbook-customer-profile-form .field-widget-phone-number {
+    padding: 0 15px;
+}
+.form-item-field-shipping-address-co-und-0-locality {width:100%}
+#edit-field-shipping-address-co .fieldset-wrapper label,#commerce-addressbook-customer-profile-form .field-widget-phone-number label {
+    font-weight: normal;
+    text-transform: uppercase;
+    width: 150px;
+}
+#edit-field-shipping-address-co .form-type-textfield {
+    width: 100%;
+}
+#edit-field-shipping-address-co .fieldset-wrapper input,#commerce-addressbook-customer-profile-form .field-widget-phone-number input,.form-item-field-shipping-address-co-und-0-locality .locality,.form-phone-number input {
+    height: 35px;
+    width: 50%;
+	border:1px solid #dfdfdf;
+	padding: 0 5px;
+}
+.form-item-field-shipping-address-co-und-0-locality .locality {-moz-appearance:none;-webkit-appearance:none;-ms-appearance:none; background:url(../img/down-arrow.png) no-repeat 98% 55%/13px auto;}
+.form-item-field-shipping-address-co-und-0-premise label {
+    visibility: hidden;
+}
+#commerce-addressbook-customer-profile-form .field-widget-phone-number .form-phone-number {display:inline;}
+#commerce-addressbook-customer-profile-form #edit-actions {
+    text-align: center;
+}
+#commerce-addressbook-customer-profile-form #edit-actions input {
+    background: #c10405;
+    border:none;
+    color: #ffffff;
+    font-size: 16px;
+    padding: 10px 0;
+    text-transform: uppercase;
+    width: 150px;
+	margin-top: 20px;
+}
+#commerce-addressbook-profile-options-delete-form p {
+    padding: 15px 0; color:red;
+}
+#commerce-addressbook-profile-options-delete-form input {
+    background: #dddddd;
+    border: none;
+    color: #464646;
+    margin:0 15px;
+    padding: 8px 25px;
+}
+#commerce-addressbook-profile-options-delete-form input:hover {background:#c10504; color:#fff;}
+#commerce-addressbook-profile-options-delete-form a {
+    color: #464646;
+    text-decoration: underline !important;
+}
+/*********************Change Password***************/
+  .dash-cont #change-password-form label {
+    color: #878787;
+    font-size: 15px;
+    font-weight: normal;
+    line-height: 30px;
+    text-align: left;
+    width: 35%;
+}
+.dash-cont #change-password-form label::after {
+    content: ":";
+    float: right;
+	padding-right:5px;
+}
+div.password-confirm,.password-strength,.dash-cont h2 {
+    font-size: 0 !important;
+	margin: 0;
+} 
+#change-password-form .form-type-password-confirm {
+    float: none !important;
+    margin: 0 auto;
+    text-align: center !important;
+    max-width:538px;
+}
+#change-password-form .form-type-password {
+    margin-bottom: 20px; position:relative;
+}
+.dash-cont #change-password-form input {
+    border: 1px solid #d9d9d9;
+    padding: 6px;
+    width: 52%;
+}
+.dash-cont #change-password-form input[type="submit"] {
+    background: #c10510;
+    border: 2px solid #c14b5b;
+    color: #ffffff;
+    font-size: 15px;
+    width: 20%;
+	margin:20px 0 0 66px;
+}
+.form-type-password-confirm > label,.password-suggestions {
+     display: none !important;
+}
+.dash-cont #change-password-form {
+    margin-top: 50px;
+    text-align: center;
+}
+/*************my Account CSS***************/
+.dash-cont ul li{
+    background: #ece2e1;
+    display: inline-block;
+    line-height: 35px;
+    margin: 0 -4px 0 0;
+    text-align: center;
+    width: 175px;
+	border:1px solid #ece2e1;
+	border-bottom:none;
+}
+.dash-cont ul li a {
+    color: #464646 !important;
+    display: block;
+    font-size: 17px;
+}
+.dash-cont ul li.active {
+    background: #ffffff;
+}
+.dash-cont ul.quicktabs-tabs {
+    border-bottom: 1px solid #ece2e1;
+    margin: 10px 0 0 10px;
+    width: 70%;
+}
+
+.addressbook-nodata {
+    padding-top: 20px;
+    text-align: center;
+}
+/************* required field Css*******/
+.addressfield-container-inline span.recvname,.street-block span.dlvadd ,.field-type-phone-number span.phoneship,span.phonecheck ,.form-item-field-shipping-address-co-und-0-postal-code span.pincode,span.pincodechek,.validpin  {
+    position: absolute;
+    color: #f00;
+    bottom: -6px;
+    left: 18%;
+	font-size:12px;
+}
+.street-block span.dlvadd,.field-type-phone-number span.phoneship,span.phonecheck {bottom:-20px;}
+.addressfield-container-inline,.street-block,.field-type-phone-number,.ac-name,.form-item-field-shipping-address-co-und-0-locality {position:relative;}
+.actname,.dlvCity,span.newpass,.cnfnewpass,.nomatchpass {position: absolute;
+    color: red;
+    left: 17%;
+    bottom: -16px;
+    font-size: 12px; }
+span.newpass,.cnfnewpass,.nomatchpass {
+    width: 100%;
+    left: 12%;
+    bottom: -12px;     text-align: left;
+}
+
+
+.date-no-float,.date-no-float .date-padding,.date-no-float .form-item.form-type-date-popup.form-item-field-birthday-und-0-value{
+    width: 100%;
+    margin: 0;
+}
+.ac-phone .form-phone-number {
+    padding: 0;
+}
+.ac-phone .form-phone-number input {
+    border: navajowhite;
+
+}
+
+
+
+@media screen and (min-width:768px) and (max-width:990px){
+.dash-menu {width:24%;}
+.dash-cont {
+    float: left;
+    margin-left: 10px;
+    width: 74%;
+}
+.rct {width:100%;margin: 10px 3px;}	
+.ship-det,.msg-det {padding:0 !important; word-wrap: break-word;}
+.order-bill {padding:0 10px !important; word-wrap: break-word;}
+.dash-cont #change-password-form input[type="submit"] {width:22%;}
+.prf-add {width: 47.7%;}
+.ac-wrap input, .ac-wrap select, .ac-phone .form-phone-number, .ac-gender select {width: 57% !important;}
+.ac-bday .date-date input {width: 85% !important;}
+.inv {
+    border: 1px solid #efefef;
+    float: left;
+    margin: 5px 4px;
+    min-height: auto !important;
+    padding: 5px;
+    width: 100%;
+}
+}
+
+
+@media screen and (max-width:767px){
+.account-pg {	 margin: 5px;    padding: 0 !important}
+.dash-cont {padding:0 !important; margin:0; float: left;}
+.dash-cont ul.quicktabs-tabs {width:95%;}
+.dash-menu {    width: 100%;margin-bottom: 10px;}
+.a-dtl .ac-p {line-height: 30px;padding:0; text-align: right;}
+.a-dtl {border-bottom:none;}
+.p-stus {text-align:left;}
+.a-dtl .ac-p::after {    content: ":";    float: right; padding-left:10px;}
+.p-reodr {    text-align: center;    width: 100%;}
+.rct {width: 100%; margin: 10px 3px 8px; min-height:125px;}
+.inv {min-height:125px;}
+.ord-conts span {
+    font-size: 12px;
+    width: 57px;
+}
+.ord-conts span:after {
+    padding-right: 3px;
+}
+.order-bill, .ship-det, .msg-det {margin-bottom: 10px;}
+.ac-wrap input, .ac-wrap select, .ac-phone .form-phone-number, .ac-gender select {width: 60% !important;}
+.ac-wrap label {width: 106px;}
+.form-phone-number input,#commerce-addressbook-customer-profile-form #edit-actions input,.add-address a { width: 67% !important;}
+.ac-phone .form-phone-number, .date-date {display: inline-block; width: 58%;}
+.ac-bday .date-date input {    width: 107% !important;}
+.ac-sub input, .ac-edit a {padding:8px 20px;}
+.prf-add {width:47.3%;}
+.p-reodr input {padding:8px 20px;width: 133px;}
+/*********************Change Password***************/
+.dash-cont #change-password-form label,#edit-field-shipping-address-co .fieldset-wrapper input, #commerce-addressbook-customer-profile-form .field-widget-phone-number input,.ac-wrap .form-submit,select.locality
+ { width: 100% !important;}
+.dash-cont #change-password-form input {    float: left;}
+#change-password-form .form-type-password-confirm {padding-left: 10px;}
+.dash-cont #change-password-form label::after { float: none;}
+.dash-cont #change-password-form input[type="submit"] {clear: both;float: left; margin: 0 16%;  width: 172px;}
+.dash-menu ul li:hover a::after, .dash-menu ul li a:after {right:0;}
+.form-item-field-shipping-address-co-und-0-premise label {display:none;}
+span.newpass,.cnfnewpass,.nomatchpass  {left:0;}
+
+/********** oorder Css******/
+span.midc {
+    width: 42%;}
+.p-gttl, .p-ttl, .ds-ttl, .mp-ttl {
+    width: 57%;	
+}
+.acp-ttl span.p-ttl {
+    width: 67%;
+}
+.inv {
+    float: left;
+    min-height: auto !important;
+    width: 100%;
+}
+.mtxt {display:none;}
+.imsg-txt {
+    width: auto !important;
+}
+}
+
+
+
+
+@media screen and (min-width:320px) and (max-width:479px){
+.ord-conts span{width: 66px;}
+.ord-conts span:after {padding-right:4px;}
+.ord-img {float: left; width: 43%;}
+.ord-conts {width: 55%;}
+.order-bill, .ship-det, .msg-det {    width: 100%;}
+.order-bill {margin: 20px 0;}
+/********** My account******/
+.ac-mail > span {display: inline-block;width: 154px;}
+.usr-inf label:after { padding: 0 5px;}
+.usr-inf label { width: 110px;}
+.prf-add {width:97%;margin: 5px 5px 13px;}
+.dash-cont ul li {width:134px;}
+.dash-menu ul li:hover a::after, .dash-menu ul li a:after {right:30px;}\
+section.ac-wrap{padding: 0 5px;}
+.ac-wrap label:after {padding-right: 2px;}
+.page-user-edit #ui-datepicker-div {
+    left: 0 !important;
+    right: 0 !important;
+    margin: auto;
+}
+}

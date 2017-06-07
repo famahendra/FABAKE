@@ -1,0 +1,430 @@
+.main-container{
+  background:#fbf2f3; clear:both;
+}
+.messages.status {
+    margin: 20px 0;
+}
+.si-img img {
+    float: right;
+    padding-right: 30px;
+}
+
+.signup-text h1 {
+    color: #c10505;
+    font-size: 24px;
+    margin: 0;
+    padding: 35px 0 15px;
+    text-align: center;
+}
+.form-item-step1-combo {
+    border: 1px solid #e0d7d8;
+    margin: 15px auto;
+    max-width: 35%;
+    width: 100%;
+}
+
+.page-user form#user-login label{
+display:none;
+}
+.page-user form#user-login input#edit-submit{
+    display:block !important;
+    margin: 0 auto;
+}
+
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+   .baking-user-login-form-wrapper .form-item-step1-combo input,.logn-form .form-type-textfield input {width:315px !important;}
+}
+.baking-user-login-form-wrapper .container {
+    margin: 0 auto;
+    text-align: center;
+}
+aside.signup-form {
+    margin: 0 auto;
+    padding: 0;
+    text-align: center;
+    width: 100%;
+}
+.country-code select {
+    -moz-appearance: none;
+    background-color: transparent;
+    appearance:none;
+    -webkit-appearance: none;
+    background-image: url("../img/down-arrow.png");
+    background-position: right center;
+    background-repeat: no-repeat;
+    background-size: 12px auto;
+    border:none;
+    float: left;
+    margin: 7px 5px 0 0;
+    padding: 0 13px 0 3px;
+}
+.baking-user-login-form-wrapper .form-item-step1-combo input {
+    border: medium none;
+    padding: 8px 8px 8px 0;
+    width:78%;
+}
+
+.signup-form input[type="submit"] {
+    background: #c10504 none repeat scroll 0 0;
+    border: 2px solid #bc394b;
+    font-size: 15px;
+    margin: 0;
+    padding: 8px 40px;
+    width: 35%;
+    color:#fff;
+     margin: 10px 0;
+}
+.logn-form .form-type-textfield {
+    border: 1px solid #ccc;
+    margin: 0 auto;
+    width: 35%;
+}
+.logn-form .form-type-password {
+    border: 1px solid #ccc;
+    margin: 20px auto auto;
+    width: 35%;
+}
+.baking-user-login-form-wrapper {
+    background-image: url("../img/sign.jpg");
+    background-position: 20% 0;
+    background-repeat: no-repeat;
+    background-size: 130px auto;
+    padding-bottom: 11%;
+}
+.logn-form .form-type-password input#edit-pass { width: 100%;}
+.logn-form .form-type-password input,.logn-form .form-type-textfield input,.baking-user-login-form-wrapper aside.signup-form .form-item-number input { border:none; width:78%;}
+.logn-form .form-type-password label {
+   left:33%;
+    margin: 53px 0 0;
+    position: absolute;
+    font-size: 12px;
+}
+.form-item-field-display-name-und-0-value label:after {
+    content: "*";
+    color: red;
+}
+.baking-user-login-form-wrapper aside.signup-form .logn-form .form-item-combo label {
+    font-weight: 300;
+    left:33%;
+    margin: -6px 0 0;
+    position: absolute;
+        font-size: 12px;
+}
+
+/**********/
+.baking-user-login-form-wrapper aside.signup-form .form-item-number {
+    border: 1px solid #e0d7d8;
+    margin: 20px auto auto;
+    max-width: 35%;
+    width: 100%;
+}
+
+.mob {
+    padding: 0;
+    width: 100%;
+}
+
+.baking-user-login-form-wrapper aside.signup-form .form-item-number label {
+    font-weight: 300;
+    left: 32.5%;
+    margin: -8px 0 0;
+    position: absolute;
+}
+
+.form-item-code label {
+    display: none;
+}
+.baking-user-login-form-wrapper aside.signup-form .form-item-code input#edit-code {
+    width: 35%;
+    margin: 15px 0;
+} 
+
+.baking-user-login-form-wrapper aside.signup-form .description {
+    margin: 0 auto;
+    width: 35%;
+}
+
+input[value="Resend OTP"], input[value="Resend Code"] {
+    background: transparent none repeat scroll 0 0 !important;
+    border: 1px solid #ccc !important;
+    color: #464646 !important;
+    display: block;
+    line-height: 20px;
+    margin: 10px auto auto !important;
+    width: 35% !important;
+}
+
+.baking-user-login-form-wrapper aside.signup-form .form-item-code {
+    margin: 15px 0px 15px 0 !important;
+}
+
+/*Js-Code-Ends*/
+
+/*.form-required{
+  visibility: hidden;
+}*/
+.form-actions input{
+border: none;
+background:#c10505 ;
+color:#fff;
+padding: 9px;
+width: 24%;
+border: 2px solid #bc394b;
+}
+.sgnup-form .form-item-field-user-phone-cell-und-0-number input {
+    border:none;
+    line-height: 24px;
+    width:86%;
+}
+.sgnup-form .form-item-field-user-phone-cell-und-0-number {
+    border: 1px solid #e0d7d8;
+    margin: 0 auto;
+    width: 35%;
+    text-align: left;
+}
+.sgnup-form .form-item-mail input {
+    margin: 15px auto auto;
+    width: 35%;
+}
+.sgnup-form .form-item-mail label {
+    font-weight: 300;
+    left: 32.5%;
+    margin: 55px 0 0;
+    position: absolute;
+}
+
+.sgnup-form .field-name-field-display-name .form-item-field-display-name-und-0-value input {
+    margin: 15px auto auto;
+    width: 35%;
+}
+.sgnup-form .field-name-field-display-name .form-item-field-display-name-und-0-value label {
+    font-weight: 300;
+    left: 32.5%;
+    margin: 125px auto auto;
+    position: absolute;
+    font-size:12px;
+}
+.sgnup-form .form-type-password input#edit-pass {
+    margin: 15px auto auto;
+    width: 35%;
+}
+.sgnup-form .form-type-password label {
+    left: 32.5%;
+    margin: 190px 0 0;
+}
+
+.form-item-mail input, .form-item-name input, .form-item-pass input, .form-type-textfield input,.signup-form .form-phone-number,.signup-form input,.cn-code select,.mcn-code select,.sgnup-form #edit-pass{
+    background: transparent;
+    padding: 8px;
+    width: 50%;
+    border: 1px solid #e0d7d8;
+}
+.mcn-code div#edit_country_codes_chosen {
+    display: none;
+}
+.mcn-code select,.cn-code select {width:100%; -moz-appearance:none;-ms-appearance:none;-webkit-appearance:none; border-right:none;}
+.form-phone-number {
+    border: 1px solid #cccccc;
+    padding: 0 !important;
+}
+.form-item-field-user-phone-cell-und-0-country-codes select,
+.form-item-field-user-phone-cell-und-0-number input{
+   background: transparent;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    -ms-appearance: none;
+    border:none;
+    padding: 6px;
+}
+.account-pg .quicktabs_main.quicktabs-style-navlist{
+    background: #fff !important;
+}
+.account-pg #change-password-form{
+    text-align:center;
+} 
+/*input#edit-submit--4 {display:none;}*/
+.form-item .description,.signup-form .description {
+    color: #888888;
+    font-size: 12px;
+}
+.login-signup-error,.signup-error,.login-error {
+    color: #ff0000;
+    font-size: 12px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+.signup-form {
+    margin-top: 0;
+    padding-left: 50px;
+}
+.signup-form .form-phone-number input.phone-number {
+    border-left: 1px solid #cccccc;
+}
+#edit-pass {
+    width: 59%;
+}
+#edit-code {
+    width: 51%;
+}
+.cn-code{
+     padding:0;
+    width:60px;
+}
+.mcn-code {
+    margin-top: 14px;
+    padding: 0;
+}
+
+.baking-user-login-form-wrapper aside.signup-form .form-item-step1-combo label {
+    font-weight: 300;
+    left: 32.5%;
+    margin: 8px 0 0;
+    position: absolute;
+    font-size: 12px;
+}
+
+
+.form-type-password label {
+    font-weight: 300;
+    position: absolute;
+}
+
+
+.mcn-code .form-item-country-codes{
+    margin:0;
+}
+.signup-form .form-submit{
+    color:#fff;
+}
+.form-item input.error, .form-item textarea.error, .form-item select.error {
+    border: 2px solid red !important;
+}
+
+.mob .form-item,.cn-code .form-item{margin-top:0 !important;}
+.npass-btn input{
+   background:#fbf2f3 !important;
+    font-size: 16px;
+    width: 35% !important;
+    color: #c10504 !important;
+    border: 1px solid #c10504 !important;
+}
+
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+    -webkit-appearance: none;
+    appearance: none;
+    margin: 0; 
+}
+input[type=number] {
+    -moz-appearance:textfield;
+}
+@media screen and (min-width:768px) and (max-width:991px) {
+.signup-form input[type="submit"],.npass-btn input {width:34% !important;}
+.form-item-combo input, .mcn-code select {
+    margin-left: 0;
+}
+#edit-code {
+    width:81%;
+}
+#user-mobile-phone-confirm-mobile-code-form #edit-code {
+    width: 82%;
+}
+.form-item-mail input, .form-item-name input, .form-item-pass input, .form-type-textfield input, .signup-form .form-phone-number, .signup-form input,.sgnup-form #edit-pass {
+    width:70%;
+}
+.logn-form {padding:0 !important;}
+.logn-form #edit-pass {
+    width:84%;
+}
+.mob {
+    margin-top: 14px;
+    padding-left: 0;
+}
+#custom-multistep-login--2 input.phone-number,.baking-user-login-form-wrapper .form-item-step1-combo input,.logn-form .form-type-password input,.logn-form .form-type-textfield input {width:79%;}
+.baking-user-login-form-wrapper {background-image:none;}
+}
+
+@media screen and (min-width:320px) and (max-width:767px) {
+        
+.sgnup-form .form-item-field-user-phone-cell-und-0-number, .form-item-mail input, .field-name-field-display-name .form-item-field-display-name-und-0-value input, .sgnup-form .form-type-password input#edit-pass {
+    width: 100% !important;
+}
+.sgnup-form .form-item-mail label {
+    left: 0;
+    margin: 60px 0 0;
+}
+.sgnup-form .field-name-field-display-name .form-item-field-display-name-und-0-value label {
+    left: 0;
+    margin: 130px auto auto;
+}
+
+.sgnup-form .form-type-password label {
+    left: 0;
+    margin: 200px 0 0;
+}
+.baking-user-login-form-wrapper aside.signup-form .form-item-number label {
+    font-weight: 300;
+    left: 0;
+    margin: -10px 0 0;
+    position: absolute;
+}
+.form-item-step1-combo {
+    border: 1px solid #e0d7d8;
+    margin: 15px auto;
+    width: 100%;
+    max-width:100%;
+}
+.baking-user-login-form-wrapper aside.signup-form .form-item-step1-combo label {
+     font-weight: 300;
+    left: 2%;
+    top: -29px !important;
+}   
+.logn-form .form-type-password {
+    width: 100%;
+}
+
+.logn-form .form-type-textfield {
+    width: 100%;
+}
+.mcn-code {
+    display: none;
+    margin-top: 14px;
+}
+.country-code select { margin-top:10px;}
+
+.baking-user-login-form-wrapper aside.signup-form .form-item-number {
+    max-width: 100%;
+    width: 100%;
+}
+.baking-user-login-form-wrapper aside.signup-form .form-item-code input#edit-code,.baking-user-login-form-wrapper aside.signup-form .description {
+    width: 100%;
+}
+.baking-user-login-form-wrapper { background:none;}
+
+.cn-code {
+    display: none; }
+    
+.signup-form {
+    max-width: 500px;
+    margin: 0 auto 20px;
+    float: none !important;
+    padding: 0;
+}
+.form-item-mail input, .form-item-name input, .form-item-pass input, .form-type-textfield input,.signup-form .form-phone-number,.signup-form input,.cn-code select,.mcn-code select,.sgnup-form #edit-pass{width:100%; padding:10px 8px;line-height: 20px !important;}
+.signup-form input[type="submit"],.npass-btn {width:100% !important;}
+.baking-user-login-form-wrapper,.logn-form {padding:0; margin:0;}
+#edit-pass,#edit-code  {
+    width: 100%;
+}
+input[value="Resend OTP"], input[value="Resend Code"] {border:none !important; margin:10px 0;}
+#user-mobile-phone-confirm-mobile-code-form .mob input {
+    margin: 0;
+}
+.sign-cont .si-img {display:none;}
+.mcn-code select.country-code{    height:42px;}
+{ width: 105%;}
+.sgnup-form .form-item-field-user-phone-cell-und-0-number input { margin:0 !important;   width: 78% !important;    margin-top: 14px; max-width:100%;}
+.signup-text p {margin:0; font-size:28px;}
+}
+

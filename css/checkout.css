@@ -1,0 +1,1294 @@
+/*** Header CSS***********/
+input[type=number]{  -moz-appearance: textfield !important;-ms-appearance: textfield !important}
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+ -webkit-appearance: none; 
+ margin: 0; 
+}
+.page-checkout .second-header {
+	text-align: right;
+	font-size: 16px;
+	margin: 0;
+	color: #7d7d7d;
+}
+.page-checkout .help-neep, .page-checkout .phno {
+	color: #008680;
+}
+.page-checkout .sccured-payment {
+	margin-top: -7px;
+	max-height: 37px;
+}
+.page-checkout .secd-pay {
+	font-size: 14px;
+}
+.page-checkout header {
+	box-shadow: 0 5px 5px #cccccc;
+	min-height: 85px;
+}
+.page-checkout #logo > img {padding-top:0}
+.scust-info span {
+	color: #888888;
+	margin-right: 18px;
+}
+.scust-info span div {
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	float: left;
+	width: 100%;
+}
+.page-checkout .mcart {
+	width: 100% !important;
+	padding: 0;
+
+}
+.needHelp {
+	color: #888888;
+	float: left;
+	font-size: 12px;
+	text-align: center;
+	width: 100%;
+}
+.page-checkout .need-help a {
+	font-size: 16px;
+}
+.page-checkout .need-help a img {
+	width: 35px;
+	margin: -3px -5px 0px;
+}
+#steps2 .datems-tl, #steps3 .reciever-details, #steps1 .usrml-tl {
+	background: #fff !important;
+	border: 1px solid #dbdada;
+	margin: 2px 0 !important;
+	color: #464646 !important;
+	cursor: pointer;
+}
+
+
+
+
+
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+.page-checkout input[type="text"] {
+	height: 35px;
+}
+.crt-edit-qty input {
+	height: 21px !important;
+}
+}
+/******** End header CSS**********/
+.cake-wrap, section {
+	clear: both;
+}
+.page-checkout-checkout div#edit-field-delivery-slot, .page-checkout-checkout div#field-delivery-date-add-more-wrapper, .form-item-customer-profile-shipping-field-shipping-address-co-und-0-country, .addrebtn input, div#edit_customer_profile_shipping_field_shipping_address_co_und_0_administrative_area_chosen, .mjnext-btn #edit-mj-next, .customer_profile_shipping legend, .attachment, .cart-rmv, .crt-crmv, .coup-txt {
+	display: none;
+}
+.crt-h, .crt-crmv.ckcr-dis {
+	display: block;
+}
+.ckcr-dis p {
+	cursor: pointer;
+}
+.cart_details .breadcrumb {
+	margin: 0;
+}
+.cart_details {
+	margin-top: 10px;
+	clear: both;
+}
+/* ************** start checkout css for Desktop ***********************/
+.page-checkout .container {
+	max-width: 940px !important;
+	width:100% !important;
+}
+#steps2 .datems-tl, #steps3 .reciever-details {
+	background: #ffffff !important;
+	border: 1px solid #dbdada;
+	margin: 2px 0 !important;
+	color: #464646 !important;
+	cursor: pointer;
+	padding-top: 0;
+}
+.edit-btn, .snd-nm, .msg-crd, .datdtime, .instruct {
+	padding: 0 !important;
+}
+.scust-info, .cust-info, .ucust-info, .rcust-info {
+	font-size: 13px;
+	line-height: 1.4;
+	padding: 10px 0;
+	color: #464646;
+}
+.checkout-header {
+	background: #fff;
+	color: #565656;
+	font-size: 16px;
+	line-height: 45px;
+	padding: 0 24px;
+	margin: 2px 0;
+	position: relative;
+	border: 1px solid #dbdada;
+}
+.datems-tl, .profms-tl, .rev-tl, .enablepane, .usrml-tl, .payment-tl {
+	background: #bdbdbd;
+}
+#steps1 .red-sign, #steps2 .red-sign, #steps3 .red-sign {
+	display: block !important;
+}
+.header-title,.gheader-title {
+	padding: 0 0 0 20px !important;
+	text-transform: uppercase;
+	font-size: 14px;
+	color: #222222;
+}
+.change {
+	background: url("../img/sprite.png") no-repeat -8px -535px;
+	cursor: pointer;
+	height: 30px;
+	margin: 10px 0;
+	width: 30px;
+	border: 1px solid #9f9f9f;
+	float: right;
+}
+.cust-info p {
+	color: #888888;
+	margin: 0;
+}
+.cust-info p.tm-rv + p {
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+.cust-info label, .scust-info label {
+	color: #464646 !important;
+	margin: 0 !important;
+	padding-right: 4px;
+	width: auto !important;
+}
+.header-title > span,.gheader-title span  {
+	display: inline-block;
+	text-align: center;
+	width: 27px;
+}
+/****** Login wrap******/
+.checkout-login-wrap {
+	background: #ffffff;
+	margin-bottom: 20px;
+	padding: 20px 0;
+	clear: both;
+}
+.uwrap span {
+	color: #464646;
+	font-weight: normal;
+	padding-left: 3px;
+}
+.uwrap p {
+	color: #666;
+	font-size: 13px;
+}
+.unext-btn input#unxt-pane, input#nxt-pane, .snext-btn input {
+	background: #c10510 !important;
+	color: #fff;
+	margin: 10px 0;
+	line-height: 40px;
+	font-size: 16px;
+	width: 20%;
+	border: none;
+	border-radius: 3px;
+}
+.logintab .form-item {
+	margin:8px 0 !important;
+}
+/******End Login wrap******/
+
+.nerror, .merror, .derror, .recvname, .dlvadd, .pincode, .pincodechek, .phoneship, .phonecheck, .derror1, .validpin, .dlvState, .dlvCity {
+	bottom: 0px;
+	color: #c10504;
+	left: 22%;
+	padding: 0;
+	position: absolute;
+}
+.midnight-charges {
+	bottom: 0;
+	color: #2f8739;
+	padding: 0;
+	position: absolute;
+	right: 45%;
+}
+.ocss .form-item, .snd-nm .form-item, .msg-crd .form-item, .instr .form-item, .alist .form-item, .name-block .form-item, .street-block .form-item, .locality-block .form-item, .form-item-customer-profile-shipping-field-shipping-address-co-und-0-postal-code, .form-item-customer-profile-shipping-field-shipping-phone-number-co-und-0 {
+	margin: 0;
+}
+.ocss, .sendername, .mesgcard, .datdtime, .instr, div.name-block, div.street-block > div, div.addressfield-container-inline > div, .form-item-customer-profile-shipping-field-shipping-address-co-und-0-postal-code, #edit-customer-profile-shipping-field-shipping-phone-number-co > div {
+	min-height: 64px;
+	position: relative;
+}
+.red-sign,.gred-sign {
+	background: url("../img/sprite.png") no-repeat 9px -689px;
+	height: 40px;
+	left: -16px;
+	position: absolute;
+	top: -1px;
+	width: 55px;
+}
+.form-required {
+	color: #ff0000 !important;
+	display: inline !important;
+}
+/*********Date and messgae********/
+.datpane-cont, .shp-wrp {
+	background: #ffffff;
+	float: left;
+	margin-bottom: 10px;
+	padding: 15px;
+	width: 100%;
+	border: 1px solid #efefef;
+	box-sizing: border-box;
+}
+#commerce-checkout-form-checkout .datpane-cont input[type="text"], #addressfield-wrapper input[type="text"], #commerce-checkout-form-checkout .datpane-cont select, #addressfield-wrapper select, .form-phone-number #edit-customer-profile-shipping-field-shipping-phone-number-co-und-0-number, .form-item-customer-profile-shipping-field-shipping-address-co-und-0-postal-code input, .logintab input  {
+	border: 1px solid #e2e2e2;
+	padding: 7px 5px;
+	width: 52%;
+	background: #fff;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+}
+#commerce-checkout-form-checkout .datpane-cont select {
+	height: 40px;
+	appearance: none;
+	-moz-appearance: none;
+	-webkit-appearance: none;
+	-ms-appearance: none;
+	width: 34.8%;
+	background: url("../img/down-arrow.png") no-repeat 98% 56% !important;
+}
+.next-btn {
+	padding: 0 0 0 22%;
+	background: #fff;
+	margin-top: 15px;
+}
+/********* delevery Slot************/
+.field-name-field-delivery-slot > .form-item-field-delivery-slot-und > label {
+	background: #c10504;
+	clear: both;
+	color: #ffffff;
+	width: 100%;
+	font-size: 18px;
+	font-weight: normal;
+	line-height: 35px;
+	text-align: center;
+}
+.modal-dialog .form-radios {
+	padding: 20px;
+}
+.modal-dialog .form-radios input[type="radio"] {
+	margin: 0;
+}
+.modal-dialog .form-radios .form-item {
+	color: #909090;
+	display: inline-block;
+	width: 48%;
+}
+.calender_pop label.option {
+	line-height: 32px;
+	width: 80% !important;
+}
+.calender_pop label.option:hover {
+	color: #c10504;
+}
+.shp-wrp, .review-wrap, .payment-wrap {
+	display: none;
+}
+#nxt-pane:disabled {
+	background: #eee;
+	cursor: not-allowed;
+	color: #000;
+	width: 20%;
+}
+.page-checkout-checkout div.addressfield-container-inline > div.form-item {
+	float: none !important;
+}
+.mislot #mslot-txt {
+	bottom: -3px;
+	font-size: 12px;
+	left: 8px;
+	position: absolute;
+}
+.mislot {
+	position: relative;
+}
+.bck-lnk {
+	margin-top: 10px;
+}
+.bck-lnk a {
+	color: #00F;
+	background: url("../img/sprite.png") no-repeat -1px -78px/50px auto;
+	padding-left: 28px;
+	cursor: pointer;
+}
+/***************** New Valentine Slot CSS**************/
+#edit-field-delivery-slot .stnd-slot, #edit-field-delivery-slot .midn-slot {
+	width: 100% !important;
+}
+#edit-field-delivery-slot .stnd-slot label, #edit-field-delivery-slot .midn-slot label {
+	margin: 0 !important;
+}
+.midn-slot {
+	margin-bottom: 15px !important;
+
+}
+#edit-field-delivery-slot .midn-slot #mslot-txt {
+	bottom: -9px;
+	left: 20px;
+}
+/***************** End Valentine Slot CSS**************/
+/*********** Reciever Details*********/
+#edit-customer-profile-shipping-field-shipping-address-co, div#edit-customer-profile-shipping-field-shipping-phone-number-co {
+	display: block !important;
+}
+.alist {
+	border: 1px solid #dddddd;
+	margin: 10px 6px !important;
+	min-height: 161px;
+	padding: 0;
+	position: relative;
+	width: 31.9%;
+}
+.alist label:after {
+	content: "";
+}
+.alist input[type="radio"] {
+	float: left;
+	left: 3%;
+	position: absolute;
+	top: 10%;
+	width: 20px !important;
+}
+.alist label {
+	margin: 0;
+	min-height: 160px;
+	padding: 15px 33px;
+	width: 100% !important;
+	cursor: pointer;
+}
+.ad-nme {
+	font-weight: 400;
+	padding-bottom: 10px;
+	color: #525252;
+}
+.shp-wrp input[type="radio"]:checked + label {
+	border: 1px solid #c10504;
+	min-height: 159px;
+	margin: 0;
+}
+.deli-btn {
+	background: #ffffff;
+	border: 1px solid #c10504;
+	bottom: 15px;
+	color: #c10504;
+	left: 23%;
+	line-height: 30px;
+	position: absolute;
+	text-align: center;
+	width: 44%;
+}
+.shnumber {
+	font-size: 13px;
+}
+.ad-dets {
+	font-size: 12px;
+	padding-bottom: 5px;
+	margin-bottom: 5px;
+	height: 30px;
+	background-color: #fff;
+	display: block;
+	line-height: 1.3em;
+	overflow: hidden;
+	position: relative;
+	text-overflow: ellipsis;
+	white-space: normal;
+	word-wrap: break-word;
+}
+.ad-dets:before {
+	content: '\002026';
+	right: 6px;
+	position: absolute;
+	top: 1.3em;
+	color: #000;
+	font-weight: 700;
+}
+.ad-dets:after {
+	content: '';
+	height: 100%;
+	width: 100%;
+	position: absolute;
+	background: #fff;
+}
+.addrebtn .option {
+	border: none !important;
+}
+input[type="radio"]:checked ~ label .deli-btn {
+	background: #c10504;
+	color: #fff;
+}
+.profedit {
+	position: absolute;
+	right: 0px;
+	top: 0px;
+}
+.profdele {
+	background: #eeeeee;
+	bottom: 1px;
+	position: absolute;
+	right: 1px;
+	width: 80px;
+}
+.profdele input {
+	border: none;
+	display: block;
+	width: 100% !important;
+	line-height: 25px;
+	background: url("../img/sprite.png") no-repeat -16px -564px;
+	padding: 0 5px 0 19px;
+}
+.profedit input {
+	height: 30px;
+	width: 100% !important;
+	background: url("../img/sprite.png") no-repeat -16px -535px !important;
+	border: none;
+	padding-left: 15px;
+}
+.rec-nm > p {
+    display: inline-block;
+    margin: 0;
+}
+.rec-add > p {
+    display: inline-block;
+    margin: 1px 10px -5px 0px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 80%;
+    float: left;
+    white-space: nowrap;
+}
+/*************** Address Bokk*******************/
+select#edit-customer-profile-shipping-field-shipping-address-co-und-0-administrative-area, #addressfield-wrapper select {
+	background: url("../img/down-arrow.png") no-repeat 98% 55% !important;
+	padding: 0px 10px;
+	-webkit-appearance: none;
+	-ms-appearance: none;
+	-moz-appearance: none;
+	height: 40px;
+}
+.shp-wrp input[value="Return to address selection"] {
+	background: transparent;
+	border: none !important;
+	color: #4898d4;
+	text-align: left;
+	text-decoration: underline;
+	padding-bottom: 20px;
+}
+.snext-btn {
+	clear: both;
+	padding: 20px 0 0 20%;
+}
+.addrebtn {
+	text-align: center;
+	clear: both;
+}
+.cart_details label, .datdtime span,.logintab label  {
+	color: #777;
+	display: inline-block;
+	font-weight: 300;
+	width: 175px;
+	text-transform: capitalize;
+}
+.cart_details label:first-letter, .datdtime span:first-letter {
+	text-transform: uppercase;
+}
+.addrebtn label div {
+	background: #c10504;
+	color: #ffffff;
+	display: inline-block;
+	padding: 10px 15px;
+	cursor: pointer;
+	border-radius: 3px;
+	text-transform: uppercase;
+}
+.addressfield-container-inline > div.form-item {
+	width: 100% !important;
+}
+.form-item-customer-profile-shipping-field-shipping-address-co-und-0-premise label {
+	visibility: hidden;
+}
+.field-widget-phone-number .form-phone-number {
+	display: inline;
+}
+
+/************ Calender******************/
+.ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default {
+	background: #ffffff;
+	border: medium none !important;
+	color: #868686;
+	font-size: 14px;
+	padding: 14px;
+	text-align: center;
+}
+.ui-datepicker th {
+	color: #828282;
+}
+.ui-datepicker-header {
+	background: #fff !important;
+	border: none !important;
+	max-width: 336px;
+}
+.ui-datepicker-inline {
+	background: #ffffff;
+	border: none;
+	border-radius: 0;
+	padding: 30px 0;
+	width: 100%;
+}
+.ui-state-default:hover, .ui-state-active {
+	background: #c10504 !important;
+	border-radius: 50%;
+	color: #ffffff !important;
+	overflow: hidden;
+}
+.calender_pop {
+	margin: 0 auto;
+	width: 337px;
+	top: 20%;
+	position: absolute;
+	left: 0;
+	right: 0;
+}
+.modal-head .close {
+	font-size: 25px;
+	margin: 7px 15px 0 0;
+}
+.ui-datepicker-calendar > tbody, .ui-datepicker-calendar tr {
+	background: #ffffff;
+}
+#calender .bck-lnk a {
+	color: #4998d4;
+	text-decoration: underline !important;
+	cursor: pointer;
+}
+/************* Review Order***************/
+.page-checkout .cart-page .container {
+	max-width: 880px !important;
+}
+.c-mprice, .ckcr-dis, .rvwo-order, .crt-img, .cnf-ph, .chk-cpn, .cart-head {
+	padding: 0 !important;
+}
+.cart-head {
+	line-height: 35px;
+	border-bottom: 1px solid #efefef;
+}
+.crt-h {
+	font-size: 15px;
+	color: #c10504;
+	padding: 1px 3px;
+	font-weight: 400;
+}
+.crt-disc {
+	padding: 20px 0;
+	float: left;
+	border-bottom: 1px solid #eaeaea;
+	width: 100%;
+}
+.crt-img {
+	padding: 0 !important;
+}
+.crt-img a img {
+	border: 4px solid #ffffff;
+	box-shadow: 3px 3px 3px #cccccc;
+}
+.ck-discp .lbl:after {
+	content: ":";
+	float: right;
+	padding-right: 2px;
+}
+.ck-discp .lbl {
+	color: #929292;
+	display: inline-block;
+	font-weight: 300;
+	width: 50px;
+	font-size: 11px;
+}
+span.ocak {
+	color: #878787;
+	font-size: 10px;
+	font-weight: 300;
+}
+.ck-msg {
+	font-size: 10px;
+}
+.ck-nm, .ck-nm a {
+	color: #c10504;
+	margin-bottom: 5px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	font-size: 15px;
+}
+.crt-prd {
+	padding-left: 0;
+}
+.ck-cqty {
+	margin: -14px 0 0 -20px;
+}
+.crt-edit-qty input {
+	line-height: 17px;
+	vertical-align: middle;
+	text-align: center;
+	width: 30px;
+	border: 1px solid #e5d7d9;
+}
+.crt-crmv {
+	text-align: center;
+}
+.crt-crmv p {
+	background: transparent url("../img/cross.png") no-repeat right top / 18px auto;
+	border: none;
+	color: transparent;
+	height: 34px;
+	width: 30px;
+	font-size: 0 !important;
+}
+.crt-edit-qty select {
+    background: #fff url("../img/down-arrow.png") no-repeat scroll 90% center / 12px auto;
+    padding: 1px 16px 1px 10px;
+    margin-left: 12px;
+    -webkit-appearance: none;
+	-moz-appearance: none;
+	-o-appearance: none;
+	outline:none;
+	border: 1px solid #ddd;
+}
+.ck-vr {
+	background: url("../img/sprite.png") no-repeat 91px -143px/36px auto;
+}
+.crt-disc .delete-link-btn,.delete-link-btn {
+	display: none;
+}
+/****** Coupon CSS********/
+.chk-cpn {
+	float: left;
+	margin-top: -32px;
+}
+.commerce_coupon input {
+	line-height: 32px;
+	width: 24% !important;
+	border: 1px solid #cccccc;
+	padding: 0 10px;
+}
+.commerce_coupon .form-item-commerce-coupon-coupon-code {
+	display: inline;
+}
+.cupn-msg {
+	color: #1a9537;
+	font-size: 12px;
+}
+.cupn-msg > a {
+	border-bottom: 1px solid #dbdbdb;
+	color: #082ae6;
+	font-size: 14px;
+}
+.commerce_coupon input[type="submit"] {
+	background: #ffffff;
+	border: 1px solid #c10504;
+	color: #c10504;
+	font-size: 14px;
+	width: 110px !important;
+	line-height: 32px;
+}
+.chk-cpn .messages {
+	background: transparent;
+	border: none;
+	clear: both;
+	margin: 0;
+	padding: 0;
+}
+.chk-cpn tbody, .chk-cpn tr {
+	border: none;
+	background: transparent;
+}
+.chk-cpn ul {
+	margin: 0px 5px 0 0px;
+}
+.chk-cpn ul li {
+	margin: 0;
+	font-size: 13px;
+}
+/******End Coupon CSS********/
+/******total CSS********/
+.component-title, .component-total {
+	line-height: 30px;
+}
+.review-wrap .commerce-price-formatted-components tr, .review-wrap .commerce-price-formatted-components tbody {
+	background: transparent;
+	border: none;
+	font-size: 16px;
+	font-weight: 300;
+}
+.component-title::after {
+	content: ":";
+	float: right;
+}
+.component-type-discountdiscount-bake2 .component-total {
+	color: #1a9537;
+}
+.component-type-commerce-price-formatted-amount {
+	border-bottom: 1px solid #dddddd !important;
+	border-top: 1px solid #dddddd !important;
+}
+.commerce-order-handler-area-order-total .commerce-price-formatted-components tr.component-type-commerce-price-formatted-amount {
+	background: #ffffff;
+	color: #464646;
+	font-size: 18px;
+	font-weight: normal;
+	line-height: 40px;
+}
+.commerce-order-handler-area-order-total {
+	clear: both;
+	padding-top: 10px;
+}
+/****** end total CSS********/
+/******** confirm mobile no.********/
+.cnf-ph label {
+	font-size: 13px;
+	text-transform: none;
+	width: 45%;
+}
+.cnf-ph .form-phone-number {
+	border: 1px solid #efefef;
+	display: inline-block;
+	line-height: 40px;
+}
+.cnf-ph .field-name-field-sender-phone-number select {
+	border-right: 1px solid #efefef;
+	width: 50px;
+	-moz-appearance: none;
+	-webkit-appearance: none;
+	height: 35px;
+}
+.cnf-ph select, .cnf-ph input {
+	border: none;
+	padding: 0 10px;
+}
+.cnf-ph .form-item {
+	margin: 0;
+}
+.cnf-ph {
+	float: left;
+	margin:45px 0 30px;
+	width: 50%;
+}
+/*********** Agree and make payment*********/
+.review-wrap #edit-actions #edit-submit, .page-checkout-checkout #mj_cart .commerce-line-item-actions {
+	display: none;
+}
+.review-wrap {
+	background: #ffffff;
+	float: left;
+	width: 100%;
+}
+fieldset#edit-commerce-payment {
+    width:100%;
+    float: left;
+    margin-top: 32px;
+    text-align: left;
+}
+fieldset#edit-commerce-payment label {
+    width: 200px !important;
+	padding:0;
+	margin: 0;
+    line-height: 27px;
+}
+.btm,fieldset#edit-buttons {
+    float: left;
+    width:100%;
+	padding:0;
+}
+.agree {
+    padding: 0;
+    font-size: 12px;
+    font-style: italic;
+	float:left;
+	width:100%;
+}
+#edit-commerce-payment .form-item {
+    border: 1px solid #d3d3d3;
+    padding: 3px 3px 3px 7px;
+}
+.rpay-btn {
+    float: right;
+    width: 37%;
+	padding:0;
+}
+#edit-commerce-payment-payment-method input[type="radio"] {
+    margin: 0 0 2px 0;
+}
+#edit-commerce-payment .form-item-commerce-payment-payment-method + .form-item-commerce-payment-payment-method label {
+    background:url("../img/sprite.png") repeat-y 0 437px;
+	text-indent:-9999px;
+}
+.btm input.checkout-processed {
+	background: #c10504;
+	border: medium none;
+	color: #ffffff;
+	font-size: 16px;
+	height: 40px;
+	text-transform: uppercase;
+	width:auto;
+	 padding: 10px 30px;
+	 float:right;
+	margin:20px 0 5px;
+	border-radius: 3px;
+}
+.termcondmsg {
+	bottom: 0;
+	position: absolute;
+	right: 8px;
+}
+.termcondmsg {
+	color: #c10504;
+	display: none;
+}
+/**** Validation Error*************/
+#charNum, #charNums {
+	position: absolute;
+	bottom: -19px;
+	font-size: 12px;
+	color: #888;
+	right: 17%;
+}
+.field-name-field-shipping-address-co label {
+	text-transform: lowercase;
+}
+/**********Guest Login Pane********/
+.logintab label:after {
+    content: "*";
+    color: #f00;
+}
+.guest_submit, .chklogin_submit {
+	background: #c10504 !important;
+	color: #fff;
+	font-size: 16px;
+	padding: 10px 35px !important;
+	display: inline-block;
+	border-radius: 5px;
+	text-transform: uppercase;
+	width: auto !important;
+	margin: 12px 0 20px 21%;
+	cursor: pointer;
+}
+.guest_submit a {
+	color: #fff;
+}
+.logintab, .fillpane {
+	background: #fff;
+	/*padding-top: 15px;*/
+	margin-bottom: 5px;
+	border: 1px solid #efefef;
+	width: 100%;
+	float: left;
+}
+#menu1 input.email-phn {
+	margin: 30px 10px 10px 10px;
+	width: 40%;
+}
+#menu1 select.log_mblcountrycode {
+	padding: 7px;
+	margin-right: -11px;
+	border-right: none;
+	background: #fff;
+	border: 1px solid #e2e2e2;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+	padding-right: 25px;
+	background: url('../img/chosen-sprite.png') no-repeat 27px 6px/ 35px auto;
+	width: 65px;
+}
+input.chklogin_submit {
+	margin: 10px 0 15px 10px !important;
+}
+.logintab .nav-tabs li a {
+	color: #464646;
+	font-weight: 400;
+	background: #f7f7f7;
+}
+.logintab .nav-tabs > li {
+    margin-right: -2px;
+}
+.logintab .nav-tabs li.active a {
+    background: #fff;
+	border-bottom-color: transparent;
+}
+.logintab #home {
+    margin-top: 15px;
+    float: left;
+}
+.logintab .nav-tabs > li > a {
+    border: 1px solid #ddd;
+	border-radius:0 !important;
+}
+.logintab .nav-tabs li+li a {
+    border-left:  1px solid #fff;;
+	border-right:  1px solid #ddd;
+}
+span.phnumber, span.phoneVal, .emailbox, .emailVal, .namebox {
+	color: #c10504;
+	left: 32%;
+	padding: 0;
+	font-size: 12px;
+	width: 100%;
+}
+.gucust-info {
+	line-height: 1.4;
+	padding: 10px 0 0;
+	color: #464646;
+}
+.gucust-info span {
+	color: #777;
+}
+.gucust-info p {
+	margin-bottom: 0;
+	font-size: 13px;
+}
+p.gpn-rv, p.dt-rv {
+	display: inline-block;
+	float: left;
+	padding-right: 10px;
+}
+.gucust-info label {
+	width: 42px;
+	color: #464646;
+	margin: 0;
+}
+#gsteps1 .fillpane {
+	border: 1px solid #dbdada !important;
+	cursor: pointer;
+}
+.gucust-info .gemail {
+	margin-left: 5px;
+}
+.slot-disable, .standard-delv {
+	display: none !important;
+}
+.ocss #edit_field_delivery_occasion_und_chosen {
+	width: 295px !important;
+}
+span.emptymsg,.phMsg,.elMsg {
+	float: left;
+	width: 100%;
+	margin:-7px 0 0 10px;
+	font-size: 12px;
+	color: red;
+}
+div#edit-field-order-email {
+	display: none;
+}
+
+/* ************** End checkout css for Desktop ***********************/
+
+/* ************** Start checkout css for Mobile ***********************/
+@media screen and (min-width:768px) and (max-width:991px) {
+#customer-profile-shipping-ajax-wrapper, .cart_details fieldset {
+	clear: both;
+	float: left;
+	width: 100%;
+}
+.unext-btn input#unxt-pane, input#nxt-pane, .snext-btn input {
+	width: 30% !important;
+}
+.next-btn {
+	padding: 0 0 0 28%;
+}
+.alist {
+	float: left;
+	width: 48.1%;
+}
+#commerce-checkout-form-checkout .datpane-cont select, #addressfield-wrapper select {
+	width: 52%;
+}
+.commerce_coupon input {
+	width: 38% !important;
+}
+.cnf-ph label {
+    width:100%;
+}
+.header-title > span {
+	width: auto;
+	padding: 0 10px 0 26px;
+}
+.header-title,.btm {
+	padding: 0 !important;
+}
+.commerce_coupon .fieldset-wrapper {
+	left: 0;
+}
+.derror1, .derror {
+	bottom: -58px;
+	left: 28%;
+}
+.nerror, .merror, .recvname, .dlvadd, .pincode, .pincodechek, .phoneship, .phonecheck, .validpin, .dlvState, .dlvCity, span.phnumber, span.phoneVal, .emailbox, .emailVal, .namebox  {
+	left: 0;
+    bottom: 0;
+    clear: both;
+    display: table;
+    margin-left: 27%;
+    width: 68%;
+
+}
+.cnf-ph {
+	width:50%;
+}
+.ocss #edit_field_delivery_occasion_und_chosen {
+	width: 52% !important;
+}
+.guest_submit {
+	margin-left: 28%;
+}
+.page-checkout header{ margin-top: 10px;}
+.rpay-btn {width:45%}
+}
+
+
+
+/* ************** Ene checkout css for Mobile ***********************/
+
+@media screen and (max-width:767px) {
+.crt-crmv p {background-position: 0px 14px;}
+.checkout_page, .cart_details, .datpane-cont > div, .checkout, .ttl-amntt, .usrml, .datemsg, .profil-wrap, .review-cont, .crt-cttl, .cnf-ph, .agree, .header-title, .addrebtn, .btm,.guest-tab,#home .phone-field-wrapper,#home .email-field-wrapper,#home .fullname-field-wrapper  {
+	padding: 0 !important;
+}
+#edit-field-delivery-slot input[type="radio"] {
+	width: 20px !important;
+}
+#commerce-checkout-form-checkout .datemsg input[type="text"], #commerce-checkout-form-checkout .profil-wrap input[type="text"], #commerce-checkout-form-checkout .datemsg select, #commerce-checkout-form-checkout .profil-wrap select, #nxt-pane, .ck-nm, .paytype, .ck-flv, .btm input.checkout-processed, .cnf-ph, .next-btn input, .snext-btn input, .unext-btn input#unxt-pane, .commerce-order-handler-area-order-total .commerce-price-formatted-components, .ck-msg, .view-attached-photo, #edit-customer-profile-shipping input[type="number"], .logintab input, .guest_submit, .chklogin_submit,.country-IN input, .field-name-field-shipping-phone-number-co input   {
+	width: 100% !important;
+}
+.datems-tl, .profms-tl, .rev-tl, .enablepane, .usrml-tl, .payment-tl {
+	line-height: 45px;
+}
+.red-sign,.gred-sign {
+	left: -40px !important;
+	top: 7px !important;
+}
+.change {
+	position: absolute;
+	right: 8px;
+	top: -4px;
+	width: 32px;
+}
+.nerror, .merror, .derror, .recvname, .dlvadd, .pincode, .pincodechek, .phoneship, .phonecheck, .termcondmsg, .validpin, .derror1, .dlvState, .dlvCity {
+	position: inherit !important;
+	float: left;
+	left: 0;
+}
+.alist {
+	width: 100%;
+	margin: 10px 0;
+}
+.alist input[type="radio"] {
+	left: 2%;
+}
+.scust-info, .cust-info, .ucust-info, .rcust-info, .shp-wrp input[value="Return to address selection"] {
+	padding: 0;
+}
+#steps3 .scust-info, #steps2 .cust-info, #steps1 .ucust-info, .gucust-info {
+	padding: 0 0 5px !important;
+	margin-top: -5px;
+}
+.header-title, .gheader-title  {
+	margin-left: -10px;
+}
+.addrebtn {
+	text-align: center;
+	width: auto;
+}
+.ck-cqty {
+	margin: -16px 0px;
+	text-align: center;
+}
+.snext-btn,.rpay-btn {
+	margin: 0;
+	width: 100%;
+	padding: 0 !important;
+}
+.street-block .premise {
+	float: left;
+	margin: -19px 0 10px;
+}
+.cart-head, .ck-discp .lbl {
+	display: none;
+}
+.ck-discp div {
+	float: left;
+	width: 50%;
+}
+.rvwo-orde {
+	position: relative;
+}
+.ck-vr {
+	background-position: 38px -144px
+}
+.crt-crmv {
+	padding: 0;
+	position: absolute;
+	right: 0px;
+	top: 7px;
+}
+.crt-crmv input {
+	width: 30px !important;
+}
+.cart_details label:after {
+	content: "";
+}
+.ck-discp {
+	padding: 0 0 0 12px;
+	line-height: 20px;
+}
+.component-type-commerce-price-formatted-amount {
+	border: none !important;
+}
+.calender_pop {
+	width: 311px;
+	top: 15%;
+}
+#edit-field-delivery-slot label.option {
+	width: 80%;
+}
+.ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default {
+	padding: 12px;
+}
+.cnf-ph label {
+	width: 100%;
+}
+.commerce_coupon input {
+	width: 54% !important;
+	height: 32px;
+}
+.chk-cpn {
+	margin: 8px 0 0 5px;
+}
+.cnf-ph {
+	float: left;
+	margin: -217px 0 0;
+	width: 100%;
+	text-align: center;
+}
+.chk-cpn td {
+	display: inline-block;
+}
+input#edit-commerce-coupon-coupon-code {
+	float: left;
+	margin-right: 5px;
+}
+.c-mprice, .crt-cttl {
+	margin-top: 20px;
+}
+.disablepane {
+	line-height: 40px;
+}
+fieldset#edit-commerce-payment {
+    width: 100%;
+    float: left;
+	margin-top: 15px;
+}
+#edit-commerce-payment legend {font-size:18px; margin-bottom:0; font-weight: 400; color: #464646;}
+.cart_details label, .datdtime span {
+	margin: 16px 0 3px;
+	font-weight: normal;
+}
+.chk-cpn,#edit-commerce-payment .form-item  {
+	margin-top: 10px;
+}
+.datpane-cont, .shp-wrp {
+	padding: 0 15px 15px;
+}
+.commerce-order-handler-area-order-total {
+	padding: 8px 0;
+	border-bottom: 1px solid #ddd;
+}
+.page-checkout-checkout div.addressfield-container-inline > div.form-item {
+	float: left;
+	clear: both;
+}
+.uwrap p + p {
+	font-size: 14px;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+.page-checkout header {
+	margin-bottom: 10px !important;
+	min-height: 63px !important;
+	box-shadow: none;
+}
+.midnight-charges {
+	bottom: -16px;
+	font-size: 11px;
+	right: 0;
+}
+#charNum, #charNums {
+	right: 0;
+}
+.logintab label {
+	margin: 10px 0 0;
+}
+p.nm label, .gucust-info label, .logintab .form-item {
+	margin: 0 !important;
+}
+#menu1 input.email-phn {
+	margin: 15px 0;
+	width:-webkit-calc(100% - 54px) !important;
+	width:-moz-calc(100% - 54px) !important;
+	width:calc(100% - 54px) !important;
+}
+.gheader-title {
+	padding: 0 !important;
+}
+.guest_submit, .chklogin_submit, input.chklogin_submit {
+	margin: 15px 0 !important;
+	text-align: center;
+}
+span.phnumber, span.phoneVal, .emailbox, .emailVal, .namebox {
+	left: 0;
+}
+p.gpn-rv, p.dt-rv,.agree {
+	width: 100%;
+	float: left;
+}
+	.logintab label:after {
+    content: "*" !important;
+}
+.rec-nm > p,.rec-add > p  {display:block;}
+.rec-add > p {
+    max-width: 100%;
+    margin: 0;
+	width: 100%;
+}
+fieldset#edit-buttons {width:100%; margin-top:74px;}
+#ck-id .lbl {
+    display: inline-block;
+}
+.agree {margin-bottom:35px;}
+}
+.slot-disable, .standard-delv {
+	display: none !important;
+}
+
+
+
+@media all and (min-width:0\0) and (min-resolution:.001dpcm){
+
+
+.datpane-cont input{
+   width:300px !important;
+}
+
+}
